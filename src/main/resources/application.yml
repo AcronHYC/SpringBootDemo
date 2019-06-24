@@ -61,3 +61,7 @@ spring:
 mybatis-plus:
   mapper-locations: classpath*:mapper/*Mapper.xml
   type-aliases-package: com.acron.demo.entity
+  configuration:
+    jdbc-type-for-null: 'null'
+    default-enum-type-handler: org.apache.ibatis.type.EnumOrdinalTypeHandler
+  type-enums-package: com.acron.demo.enums    #配置type-enums-package只对注解方式的枚举处理能提前加载缓存
