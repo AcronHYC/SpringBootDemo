@@ -3,6 +3,7 @@ package com.acron.demo.controller;
 import com.acron.demo.entity.User;
 import com.acron.demo.enums.Sex;
 import com.acron.demo.service.UserService;
+import com.alibaba.fastjson.JSON;
 import io.swagger.annotations.*;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
@@ -26,14 +27,16 @@ public class UserController {
 
     @ApiOperation(value="根据id查看用户", notes="根据id查看用户")
     @GetMapping("/user/{id}")
-    public User findUserById(@ApiParam("ID,非空") @PathVariable("id") String id){
+    public String  findUserById(@ApiParam("ID,非空") @PathVariable("id") String id){
         User user=userService.getById(id);
-        return  user;
+        System.out.println(user.getSex().getDesc());
+        return  user.toString();
     }
 
     @PostMapping("/user")
     public void createUser(){
-        User user=User.build("testN","testP", Sex.MALE,"testT","testE");
+        User user=User.build("testN","testP", Sex.FEMALE,"testT","testE");
+        log.info(user.getSex().getValue()+":"+user.getSex().getDesc());
         userService.save(user);
     }
 }

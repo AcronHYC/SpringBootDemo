@@ -1,0 +1,478 @@
+[00:00:39:117] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 11560 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[00:00:39:119] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[00:00:39:119] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[00:00:39:806] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 0.76 seconds (JVM running for 1082.332)
+[00:02:52:754] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 3288 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[00:02:52:761] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[00:02:52:761] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[00:02:55:408] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 2.941 seconds (JVM running for 3.714)
+[00:03:16:261] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO user ( id, user_name, password, sex, telephone, email ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+[00:03:16:336] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 1ea524a31f87e37f1cdb4ab95c385f38(String), test(String), test(String), 0(Integer), test(String), test(String)
+[00:04:30:724] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO user ( id, user_name, password, sex, telephone, email ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+[00:04:30:725] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 54a380f6faa4fe706b6c9fac0b82d796(String), test(String), test(String), 0(Integer), test(String), test(String)
+[00:04:30:777] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==    Updates: 1
+[00:05:26:491] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name,password,sex,telephone,email FROM user WHERE id=? 
+[00:05:26:512] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 54a380f6faa4fe706b6c9fac0b82d796(String)
+[00:05:26:530] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, user_name, password, sex, telephone, email
+[00:05:26:531] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 54a380f6faa4fe706b6c9fac0b82d796, test, test, 0, test, test
+[00:07:00:099] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO user ( id, user_name, password, sex, telephone, email ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+[00:07:00:099] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: f3bb43ec815253ebf8aa0c5b8f544608(String), test(String), test(String), 0(Integer), test(String), test(String)
+[00:08:58:587] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 6052 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[00:08:58:592] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[00:08:58:593] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[00:09:01:287] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 3.002 seconds (JVM running for 3.808)
+[00:09:17:855] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO user ( id, user_name, password, sex, telephone, email ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+[00:09:17:929] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 8566d3c6cd2a5dc174b8d28fc277f4bd(String), testN(String), testP(String), 0(Integer), testT(String), testE(String)
+[00:09:17:935] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==    Updates: 1
+[00:09:48:039] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name,password,sex,telephone,email FROM user WHERE id=? 
+[00:09:48:060] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 8566d3c6cd2a5dc174b8d28fc277f4bd(String)
+[00:09:48:077] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, user_name, password, sex, telephone, email
+[00:09:48:077] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 8566d3c6cd2a5dc174b8d28fc277f4bd, testN, testP, 0, testT, testE
+[00:11:20:782] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 6736 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[00:11:20:786] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[00:11:20:787] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[00:11:23:464] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 2.992 seconds (JVM running for 3.841)
+[00:11:37:030] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name,password,telephone,email FROM user WHERE id=? 
+[00:11:37:118] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: java.lang.NumberFormatException: For input string: "testP"(String)
+[00:11:37:133] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==      Total: 0
+[00:11:45:664] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name,password,telephone,email FROM user WHERE id=? 
+[00:11:45:665] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: java.lang.NumberFormatException: For input string: "testP"(String)
+[00:11:45:666] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==      Total: 0
+[00:11:55:623] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name,password,telephone,email FROM user WHERE id=? 
+[00:11:55:635] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 8566d3c6cd2a5dc174b8d28fc277f4bd(String)
+[00:11:55:639] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, user_name, password, telephone, email
+[00:11:55:640] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 8566d3c6cd2a5dc174b8d28fc277f4bd, testN, testP, testT, testE
+[00:11:55:645] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==      Total: 1
+[00:15:43:028] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 4468 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[00:15:43:033] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[00:15:43:033] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[00:15:45:770] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 3.014 seconds (JVM running for 3.767)
+[20:42:07:643] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 12424 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[20:42:07:649] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[20:42:07:649] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[20:42:10:489] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 3.153 seconds (JVM running for 5.897)
+[20:47:00:021] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 12424 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[20:47:00:021] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[20:47:00:021] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[20:47:00:958] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 0.983 seconds (JVM running for 296.367)
+[20:54:17:660] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 12424 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[20:54:17:660] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[20:54:17:661] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[20:54:18:461] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 0.835 seconds (JVM running for 733.869)
+[21:06:09:505] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name,password,sex,telephone,email FROM user WHERE id=? 
+[21:06:09:610] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 8566d3c6cd2a5dc174b8d28fc277f4bd(String)
+[21:06:09:629] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, user_name, password, sex, telephone, email
+[21:06:09:629] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 8566d3c6cd2a5dc174b8d28fc277f4bd, testN, testP, 0, testT, testE
+[21:08:24:900] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 11960 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:08:24:909] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:08:24:909] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:08:29:120] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 4.513 seconds (JVM running for 5.423)
+[21:08:51:022] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO user ( id, user_name, password, sex, telephone, email ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+[21:08:51:098] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 5e5d4820d861be5c0ce655d45d0884fd(String), testN(String), testP(String), 1(Integer), testT(String), testE(String)
+[21:08:51:107] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==    Updates: 1
+[21:09:35:643] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 15312 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:09:35:649] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:09:35:650] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:09:38:312] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 2.933 seconds (JVM running for 3.711)
+[21:09:56:980] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO user ( id, user_name, password, sex, telephone, email ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+[21:09:57:057] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 852a45ffbc4f51851be8dc2f60474e54(String), testN(String), testP(String), 1(Integer), testT(String), testE(String)
+[21:09:57:062] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==    Updates: 1
+[21:10:33:558] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 13256 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:10:33:565] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:10:33:566] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:10:36:606] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 3.463 seconds (JVM running for 4.329)
+[21:11:32:255] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 13256 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:11:32:256] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:11:32:256] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:11:33:099] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 0.877 seconds (JVM running for 60.823)
+[21:11:40:410] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO user ( id, user_name, password, sex, telephone, email ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+[21:11:40:487] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 482e633a1ededc8efe73dffa5a7e338b(String), testN(String), testP(String), 2(Integer), testT(String), testE(String)
+[21:11:40:503] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==    Updates: 1
+[21:14:49:885] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO user ( id, user_name, password, sex, telephone, email ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+[21:14:49:887] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: e6cdba8c38e5a1470dc57f434911df18(String), testN(String), testP(String), 2(Integer), testT(String), testE(String)
+[21:14:49:904] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==    Updates: 1
+[21:15:10:403] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 13256 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:15:10:403] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:15:10:404] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:15:11:269] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 0.915 seconds (JVM running for 278.993)
+[21:15:57:030] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 13256 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:15:57:030] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:15:57:030] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:15:57:754] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 0.75 seconds (JVM running for 325.478)
+[21:16:10:795] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 13256 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:16:10:796] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:16:10:796] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:16:11:399] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 0.636 seconds (JVM running for 339.123)
+[21:16:32:088] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 13256 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:16:32:089] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:16:32:089] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:16:32:839] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 0.784 seconds (JVM running for 360.563)
+[21:17:32:629] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 13256 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:17:32:630] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:17:32:630] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:20:00:863] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 13256 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:20:00:864] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:20:00:864] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:20:01:437] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 0.602 seconds (JVM running for 569.161)
+[21:23:30:214] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 16344 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:23:30:220] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:23:30:221] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:23:32:925] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 3.055 seconds (JVM running for 3.969)
+[21:23:59:676] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO user ( id, user_name, password, sex, telephone, email ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+[21:23:59:748] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 1765380268d018c6d0e6e3b639db7719(String), testN(String), testP(String), 1(Integer), testT(String), testE(String)
+[21:23:59:763] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==    Updates: 1
+[21:24:12:559] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 16344 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:24:12:559] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:24:12:559] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:24:13:404] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 0.886 seconds (JVM running for 44.448)
+[21:24:21:895] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name,password,sex,telephone,email FROM user WHERE id=? 
+[21:24:21:916] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 1765380268d018c6d0e6e3b639db7719(String)
+[21:24:21:933] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, user_name, password, sex, telephone, email
+[21:24:21:934] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 1765380268d018c6d0e6e3b639db7719, testN, testP, 1, testT, testE
+[21:25:57:727] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 14848 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:25:57:767] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:25:57:768] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:26:00:695] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 3.25 seconds (JVM running for 4.03)
+[21:26:18:038] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name,password,sex,telephone,email FROM user WHERE id=? 
+[21:26:18:127] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: uncategorized SQLException; SQL state [null]; error code [0]; Error; nested exception is java.sql.SQLException: Error] with root cause(String)
+[21:26:18:158] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==      Total: 0
+[21:26:34:228] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name,password,sex,telephone,email FROM user WHERE id=? 
+[21:26:34:229] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 1765380268d018c6d0e6e3b639db7719(String)
+[21:26:34:231] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, user_name, password, sex, telephone, email
+[21:26:34:232] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 1765380268d018c6d0e6e3b639db7719, testN, testP, 1, testT, testE
+[21:48:49:083] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name,password,sex,telephone,email FROM user WHERE id=? 
+[21:48:49:084] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 1765380268d018c6d0e6e3b639db7719(String)
+[21:48:49:085] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, user_name, password, sex, telephone, email
+[21:48:49:086] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 1765380268d018c6d0e6e3b639db7719, testN, testP, 1, testT, testE
+[21:50:21:550] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 10180 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:50:21:557] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:50:21:558] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:50:24:624] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 3.493 seconds (JVM running for 5.329)
+[21:51:25:628] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name,password,sex,telephone,email FROM user WHERE id=? 
+[21:51:25:718] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 1765380268d018c6d0e6e3b639db7719(String)
+[21:51:25:736] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, user_name, password, sex, telephone, email
+[21:51:25:736] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 1765380268d018c6d0e6e3b639db7719, testN, testP, 1, testT, testE
+[21:54:52:909] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 15112 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:54:52:914] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:54:52:915] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:54:55:835] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 3.327 seconds (JVM running for 4.322)
+[21:57:13:057] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name,password,telephone,email FROM user WHERE id=? 
+[21:57:13:149] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 1765380268d018c6d0e6e3b639db7719(String)
+[21:57:13:169] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, user_name, password, telephone, email
+[21:57:13:169] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 1765380268d018c6d0e6e3b639db7719, testN, testP, testT, testE
+[21:57:13:174] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==      Total: 1
+[21:58:15:879] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 15112 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:58:15:880] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:58:15:880] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:58:16:801] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 0.968 seconds (JVM running for 205.287)
+[22:00:00:239] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 10976 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:00:00:244] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:00:00:244] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:00:02:923] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 3.04 seconds (JVM running for 3.873)
+[22:00:23:149] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO user ( id, user_name, password, sex, telephone, email ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+[22:00:23:222] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 675584fd0581e1483ea974a5b1655773(String), testN(String), testP(String), 1(Integer), testT(String), testE(String)
+[22:00:23:236] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==    Updates: 1
+[22:01:32:668] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 10976 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:01:32:668] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:01:32:668] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:01:33:536] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 0.905 seconds (JVM running for 94.486)
+[22:01:38:543] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name,password,sex,telephone,email FROM user WHERE id=? 
+[22:01:38:563] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 675584fd0581e1483ea974a5b1655773(String)
+[22:01:38:590] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, user_name, password, sex, telephone, email
+[22:01:38:591] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 675584fd0581e1483ea974a5b1655773, testN, testP, 1, testT, testE
+[22:04:02:499] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 10976 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:04:02:500] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:04:02:500] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:04:03:300] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 0.84 seconds (JVM running for 244.25)
+[22:05:59:227] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 10976 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:05:59:227] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:05:59:228] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:05:59:905] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 0.708 seconds (JVM running for 360.855)
+[22:08:22:139] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1288 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:08:22:145] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:08:22:145] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:08:24:799] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 2.957 seconds (JVM running for 3.792)
+[22:08:49:427] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name,password,sex,telephone,email FROM user WHERE id=? 
+[22:08:49:518] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 675584fd0581e1483ea974a5b1655773(String)
+[22:08:49:536] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, user_name, password, sex, telephone, email
+[22:08:49:537] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 675584fd0581e1483ea974a5b1655773, testN, testP, 1, testT, testE
+[22:13:21:983] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1288 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:13:21:983] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:13:21:983] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:13:22:752] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 0.799 seconds (JVM running for 301.746)
+[22:24:56:778] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1288 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:24:56:779] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:24:56:779] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:24:57:490] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 0.742 seconds (JVM running for 996.485)
+[22:27:06:604] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 8 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:27:06:608] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:27:06:609] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:27:09:276] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 2.956 seconds (JVM running for 3.713)
+[22:27:46:115] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO user ( id, user_name, password, sex, telephone, email ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+[22:27:46:191] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 15f6e993040c4d445792e904bec5896a(String), testN(String), testP(String), 1(Integer), testT(String), testE(String)
+[22:27:46:207] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==    Updates: 1
+[22:28:40:531] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name,password,sex,telephone,email FROM user WHERE id=? 
+[22:28:40:552] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 15f6e993040c4d445792e904bec5896a(String)
+[22:28:40:569] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, user_name, password, sex, telephone, email
+[22:28:40:570] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 15f6e993040c4d445792e904bec5896a, testN, testP, 1, testT, testE
+[22:33:58:054] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 8 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:33:58:054] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:33:58:054] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:33:58:801] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 0.785 seconds (JVM running for 413.237)
+[22:34:25:537] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 8 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:34:25:537] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:34:25:538] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:34:26:250] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 0.743 seconds (JVM running for 440.686)
+[22:35:01:013] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 10168 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:35:01:019] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:35:01:020] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:35:03:630] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 2.89 seconds (JVM running for 3.64)
+[22:35:15:815] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,userName,password,sex,telephone,email FROM user WHERE id=? 
+[22:35:15:898] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 15f6e993040c4d445792e904bec5896a(String)
+[22:35:41:325] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 13772 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:35:41:330] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:35:41:331] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:35:44:051] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 3.069 seconds (JVM running for 3.927)
+[22:36:01:727] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name,password,sex,telephone,email FROM user WHERE id=? 
+[22:36:01:812] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 15f6e993040c4d445792e904bec5896a(String)
+[22:36:01:831] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, user_name, password, sex, telephone, email
+[22:36:01:831] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 15f6e993040c4d445792e904bec5896a, testN, testP, 1, testT, testE
+[22:38:44:019] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 13772 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:38:44:019] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:38:44:019] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:38:44:761] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 0.772 seconds (JVM running for 184.637)
+[22:39:32:634] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 13772 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:39:32:635] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:39:32:635] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:39:33:364] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 0.773 seconds (JVM running for 233.24)
+[22:40:44:167] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 13772 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:40:44:168] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:40:44:168] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:40:44:931] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 0.793 seconds (JVM running for 304.807)
+[22:41:18:614] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 13772 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:41:18:614] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:41:18:614] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:41:19:433] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 0.854 seconds (JVM running for 339.309)
+[22:41:49:090] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 13772 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:41:49:090] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:41:49:090] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:41:49:887] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 0.835 seconds (JVM running for 369.764)
+[22:43:40:167] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 3568 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:43:40:173] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:43:40:173] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:43:43:050] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 3.207 seconds (JVM running for 3.949)
+[22:44:23:006] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO user ( id, user_name, password, sex, telephone, email ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+[22:44:23:082] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: af461f3b71a925af280d1ef6c2e4a027(String), testN(String), testP(String), 1(Integer), testT(String), testE(String)
+[22:44:23:097] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==    Updates: 1
+[22:45:42:403] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name,password,sex,telephone,email FROM user WHERE id=? 
+[22:45:42:424] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: af461f3b71a925af280d1ef6c2e4a027(String)
+[22:45:42:440] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, user_name, password, sex, telephone, email
+[22:45:42:440] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: af461f3b71a925af280d1ef6c2e4a027, testN, testP, 1, testT, testE
+[22:46:02:158] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 11144 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:46:02:165] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:46:02:166] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:46:05:440] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 3.586 seconds (JVM running for 4.446)
+[22:48:47:036] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name,password,sex,telephone,email FROM user WHERE id=? 
+[22:48:47:131] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: af461f3b71a925af280d1ef6c2e4a027(String)
+[22:48:47:150] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, user_name, password, sex, telephone, email
+[22:48:47:150] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: af461f3b71a925af280d1ef6c2e4a027, testN, testP, 1, testT, testE
+[22:56:25:775] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplicationTests on Acron with PID 12020 (started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:56:25:777] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:56:25:777] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:56:29:541] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplicationTests in 4.032 seconds (JVM running for 5.143)
+[22:56:29:921] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO user ( id, user_name, password, sex, telephone, email ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+[22:56:30:089] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 39aa17767bf1213f2dd90a798fe2c88b(String), test(String), ssss(String), 2(Integer), !23213(String), 13(String)
+[22:56:30:095] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==    Updates: 1
+[22:57:31:223] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplicationTests on Acron with PID 5884 (started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:57:31:224] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:57:31:225] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:57:35:276] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplicationTests in 4.39 seconds (JVM running for 5.475)
+[22:57:35:442] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name,password,sex,telephone,email FROM user WHERE id=? 
+[22:57:35:597] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 39aa17767bf1213f2dd90a798fe2c88b(String)
+[22:57:35:628] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, user_name, password, sex, telephone, email
+[22:57:35:629] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 39aa17767bf1213f2dd90a798fe2c88b, test, ssss, 2, !23213, 13
+[22:57:35:638] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==      Total: 1
+[22:58:13:686] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplicationTests on Acron with PID 1864 (started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:58:13:687] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:58:13:687] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:58:17:671] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplicationTests in 4.319 seconds (JVM running for 5.414)
+[22:58:17:845] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name,password,sex,telephone,email FROM user WHERE id=? 
+[22:58:18:004] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 39aa17767bf1213f2dd90a798fe2c88b(String)
+[22:58:18:028] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, user_name, password, sex, telephone, email
+[22:58:18:028] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 39aa17767bf1213f2dd90a798fe2c88b, test, ssss, 2, !23213, 13
+[22:58:18:036] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==      Total: 1
+[22:59:51:214] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplicationTests on Acron with PID 9836 (started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:59:51:216] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:59:51:216] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:59:55:298] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplicationTests in 4.423 seconds (JVM running for 5.507)
+[22:59:55:490] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name,password,sex,telephone,email FROM user WHERE id=? 
+[22:59:55:655] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 39aa17767bf1213f2dd90a798fe2c88b(String)
+[22:59:55:683] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, user_name, password, sex, telephone, email
+[22:59:55:684] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 39aa17767bf1213f2dd90a798fe2c88b, test, ssss, 2, !23213, 13
+[22:59:55:693] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==      Total: 1
+[23:02:21:707] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplicationTests on Acron with PID 4804 (started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[23:02:21:708] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[23:02:21:709] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[23:02:25:681] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplicationTests in 4.314 seconds (JVM running for 5.408)
+[23:02:26:012] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO user ( id, user_name, password, sex, telephone, email ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+[23:02:26:162] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: d2acd0efd7c7a862fcaa5119ea49640b(String), test(String), Test(String), 2(Integer), Test(String), Test(String)
+[23:02:26:177] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==    Updates: 1
+[23:02:26:181] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name,password,sex,telephone,email FROM user WHERE id=? 
+[23:02:26:207] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 39aa17767bf1213f2dd90a798fe2c88b(String)
+[23:02:26:230] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, user_name, password, sex, telephone, email
+[23:02:26:231] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 39aa17767bf1213f2dd90a798fe2c88b, test, ssss, 2, !23213, 13
+[23:02:26:234] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==      Total: 1
+[23:03:11:594] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplicationTests on Acron with PID 12632 (started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[23:03:11:595] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[23:03:11:596] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[23:03:15:721] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplicationTests in 4.474 seconds (JVM running for 5.622)
+[23:03:16:050] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO user ( id, user_name, password, sex, telephone, email ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+[23:03:16:211] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: aef19d026447ccc947dfd68c61d47d40(String), test(String), Test(String), 2(Integer), Test(String), Test(String)
+[23:03:16:226] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==    Updates: 1
+[23:03:16:231] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name,password,sex,telephone,email FROM user WHERE id=? 
+[23:03:16:262] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 39aa17767bf1213f2dd90a798fe2c88b(String)
+[23:03:16:284] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, user_name, password, sex, telephone, email
+[23:03:16:285] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 39aa17767bf1213f2dd90a798fe2c88b, test, ssss, 2, !23213, 13
+[23:03:16:288] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==      Total: 1
+[23:04:10:587] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplicationTests on Acron with PID 12004 (started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[23:04:10:589] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[23:04:10:589] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[23:04:14:653] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplicationTests in 4.413 seconds (JVM running for 5.514)
+[23:04:14:957] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO user ( id, user_name, password, sex, telephone, email ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+[23:04:15:105] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: a5e0c200d44937c96688469babb8b7f8(String), test(String), Test(String), 2(Integer), Test(String), Test(String)
+[23:04:15:120] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==    Updates: 1
+[23:04:15:124] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name,password,sex,telephone,email FROM user WHERE id=? 
+[23:04:15:151] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 39aa17767bf1213f2dd90a798fe2c88b(String)
+[23:04:15:176] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, user_name, password, sex, telephone, email
+[23:04:15:177] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 39aa17767bf1213f2dd90a798fe2c88b, test, ssss, 2, !23213, 13
+[23:04:15:181] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==      Total: 1
+[23:04:40:838] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 3140 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[23:04:40:853] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[23:04:40:853] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[23:04:43:353] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 2.858 seconds (JVM running for 3.598)
+[23:06:11:965] [INFO] - com.acron.demo.controller.UserController.createUser(UserController.java:39) - 2:女
+[23:06:12:098] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO user ( id, user_name, password, sex, telephone, email ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+[23:06:12:172] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 11b28c6e962f035a19d1e5c4654dfcc2(String), testN(String), testP(String), 1(Integer), testT(String), testE(String)
+[23:06:12:179] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==    Updates: 1
+[23:12:07:969] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 3404 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[23:12:07:976] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[23:12:07:976] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[23:12:10:971] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 3.329 seconds (JVM running for 4.385)
+[23:12:52:906] [INFO] - com.acron.demo.controller.UserController.createUser(UserController.java:39) - 2:女
+[23:23:21:649] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO user ( id, user_name, password, sex, telephone, email ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+[23:23:21:726] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 18c175a492c3dd99cc0124e5c7e70962(String), testN(String), testP(String), 1(Integer), testT(String), testE(String)
+[23:23:21:740] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==    Updates: 1
+[23:24:34:817] [INFO] - com.acron.demo.controller.UserController.createUser(UserController.java:39) - 2:女
+[23:24:44:483] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO user ( id, user_name, password, sex, telephone, email ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+[23:24:44:484] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 28dbc30b69a04bfd3f7e367f902ddb98(String), testN(String), testP(String), 1(Integer), testT(String), testE(String)
+[23:24:44:497] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==    Updates: 1
+[23:24:52:638] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name,password,sex,telephone,email FROM user WHERE id=? 
+[23:24:52:664] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: aef19d026447ccc947dfd68c61d47d40(String)
+[23:24:52:682] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, user_name, password, sex, telephone, email
+[23:24:52:682] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: aef19d026447ccc947dfd68c61d47d40, test, Test, 2, Test, Test
+[23:36:15:516] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 14144 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[23:36:15:522] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[23:36:15:523] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[23:36:18:531] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 3.37 seconds (JVM running for 4.365)
+[23:36:42:177] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 8144 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[23:36:42:183] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[23:36:42:183] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[23:36:45:176] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 3.36 seconds (JVM running for 4.349)
+[23:37:25:807] [INFO] - com.acron.demo.controller.UserController.createUser(UserController.java:39) - 1:男
+[23:37:40:746] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO user ( id, user_name, password, sex, telephone, email ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+[23:37:40:824] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: fe37ec74be3d03ff7793a6a8581f5c5b(String), testN(String), testP(String), 0(Integer), testT(String), testE(String)
+[23:37:40:877] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==    Updates: 1
+[23:38:01:791] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplicationTests on Acron with PID 8904 (started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[23:38:01:792] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[23:38:01:792] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[23:38:05:518] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplicationTests in 4.007 seconds (JVM running for 5.198)
+[23:38:05:898] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO user ( id, user_name, password, sex, telephone, email ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+[23:38:06:064] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 0ab185df6cb8ac09b116478c293a6b0a(String), test(String), Test(String), 2(Integer), Test(String), Test(String)
+[23:38:06:070] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==    Updates: 1
+[23:38:06:073] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name,password,sex,telephone,email FROM user WHERE id=? 
+[23:38:06:101] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 39aa17767bf1213f2dd90a798fe2c88b(String)
+[23:38:06:125] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, user_name, password, sex, telephone, email
+[23:38:06:126] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 39aa17767bf1213f2dd90a798fe2c88b, test, ssss, 2, !23213, 13
+[23:38:06:129] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==      Total: 1
+[23:38:23:162] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplicationTests on Acron with PID 16320 (started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[23:38:23:164] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[23:38:23:164] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[23:38:27:572] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplicationTests in 4.724 seconds (JVM running for 6.021)
+[23:39:51:452] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO user ( id, user_name, password, sex, telephone, email ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+[23:39:51:616] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: bd9ef20caa826d3d9492709d62550809(String), test(String), Test(String), 2(Integer), Test(String), Test(String)
+[23:39:51:630] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==    Updates: 1
+[23:39:51:634] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name,password,sex,telephone,email FROM user WHERE id=? 
+[23:39:51:663] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 39aa17767bf1213f2dd90a798fe2c88b(String)
+[23:39:51:815] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, user_name, password, sex, telephone, email
+[23:39:51:815] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 39aa17767bf1213f2dd90a798fe2c88b, test, ssss, 2, !23213, 13
+[23:39:51:818] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==      Total: 1
+[23:42:18:000] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 8144 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[23:42:18:000] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[23:42:18:000] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[23:42:18:911] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 0.946 seconds (JVM running for 338.083)
+[23:42:39:822] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplicationTests on Acron with PID 9744 (started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[23:42:39:823] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[23:42:39:823] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[23:42:43:892] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplicationTests in 4.373 seconds (JVM running for 5.502)
+[23:42:44:209] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO user ( id, user_name, password, sex, telephone, email ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+[23:42:44:358] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 0d280780848c01e05a80f2536a1dc84d(String), test(String), Test(String), 2(String), Test(String), Test(String)
+[23:42:44:375] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==    Updates: 1
+[23:42:44:379] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name,password,sex,telephone,email FROM user WHERE id=? 
+[23:42:44:402] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 39aa17767bf1213f2dd90a798fe2c88b(String)
+[23:42:44:428] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, user_name, password, sex, telephone, email
+[23:42:44:429] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 39aa17767bf1213f2dd90a798fe2c88b, test, ssss, 2, !23213, 13
+[23:42:44:433] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==      Total: 1
+[23:42:48:072] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 5364 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[23:42:48:078] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[23:42:48:078] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[23:42:50:668] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 2.896 seconds (JVM running for 3.66)
+[23:43:20:926] [INFO] - com.acron.demo.controller.UserController.createUser(UserController.java:39) - 1:男
+[23:43:21:045] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO user ( id, user_name, password, sex, telephone, email ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+[23:43:21:122] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 6c9b9aa11cc4f622a3ed09f7f09c5415(String), testN(String), testP(String), 0(Integer), testT(String), testE(String)
+[23:43:21:135] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==    Updates: 1
+[23:44:10:642] [INFO] - com.acron.demo.controller.UserController.createUser(UserController.java:39) - 1:男
+[23:44:10:643] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO user ( id, user_name, password, sex, telephone, email ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+[23:44:10:644] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 5898eb70c7df3ff3814e2de9749e53bc(String), testN(String), testP(String), 0(Integer), testT(String), testE(String)
+[23:44:10:658] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==    Updates: 1
+[23:44:32:423] [INFO] - com.acron.demo.controller.UserController.createUser(UserController.java:39) - 1:男
+[23:44:32:424] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO user ( id, user_name, password, sex, telephone, email ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+[23:44:32:425] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 023c873bdb0a0ba5e745edafe58c1549(String), testN(String), testP(String), 0(Integer), testT(String), testE(String)
+[23:44:32:439] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==    Updates: 1
+[23:45:38:572] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 5364 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[23:45:38:572] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[23:45:38:573] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[23:45:39:406] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 0.872 seconds (JVM running for 172.397)
+[23:45:55:073] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 5364 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[23:45:55:073] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[23:45:55:074] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[23:45:55:858] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 0.815 seconds (JVM running for 188.85)
+[23:46:09:119] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 8456 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[23:46:09:123] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[23:46:09:124] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[23:46:11:773] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 3.014 seconds (JVM running for 3.845)
+[23:47:02:965] [INFO] - com.acron.demo.controller.UserController.createUser(UserController.java:39) - 1:男
+[23:47:03:084] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO user ( id, user_name, password, sex, telephone, email ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+[23:47:03:160] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: fc4a1f9d643cfbc991e6b1962c80b443(String), testN(String), testP(String), 0(Integer), testT(String), testE(String)
+[23:47:03:176] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==    Updates: 1
+[23:48:26:632] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 8456 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[23:48:26:632] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[23:48:26:632] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[23:48:27:497] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 0.901 seconds (JVM running for 139.569)
+[23:49:39:165] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 15100 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[23:49:39:170] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[23:49:39:171] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[23:49:41:850] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 3.009 seconds (JVM running for 3.783)
+[23:50:19:470] [INFO] - com.acron.demo.controller.UserController.createUser(UserController.java:39) - 1:男
+[23:50:19:590] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO user ( id, user_name, password, sex, telephone, email ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+[23:50:19:665] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 9c6be1260dd3d8a554727cbbc61d7fb7(String), testN(String), testP(String), 0(Integer), testT(String), testE(String)
+[23:50:19:679] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==    Updates: 1
+[23:54:44:197] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 2896 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[23:54:44:203] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[23:54:44:204] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[23:54:47:015] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 3.118 seconds (JVM running for 4.11)
+[23:55:07:272] [INFO] - com.acron.demo.controller.UserController.createUser(UserController.java:39) - 1:男
+[23:55:07:412] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO user ( id, user_name, password, sex, telephone, email ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+[23:55:07:500] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 9f96c301deb47198a1578bd480f05bbe(String), testN(String), testP(String), MALE(String), testT(String), testE(String)
+[23:57:39:836] [INFO] - com.acron.demo.controller.UserController.createUser(UserController.java:39) - 1:男
+[23:57:39:841] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO user ( id, user_name, password, sex, telephone, email ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+[23:57:39:843] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 5cca37ba45533ab8f907a52f14512dd5(String), testN(String), testP(String), MALE(String), testT(String), testE(String)
