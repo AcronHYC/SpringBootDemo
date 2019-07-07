@@ -1,7 +1,7 @@
 [17:38:21:097] [WARN] - org.mybatis.logging.Logger.warn(Logger.java:44) - No MyBatis mapper was found in '[com.acron.demo]' package. Please check your configuration.
 [17:41:23:797] [WARN] - org.mybatis.logging.Logger.warn(Logger.java:44) - No MyBatis mapper was found in '[com.acron.demo.dao]' package. Please check your configuration.
 [17:41:23:885] [WARN] - org.mybatis.logging.Logger.warn(Logger.java:44) - No MyBatis mapper was found in '[com.acron.demo]' package. Please check your configuration.
-[18:07:32:286] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.acron.demo.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[18:07:32:286] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.acron.demo.service.IUserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 [18:07:32:417] [ERROR] - org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:40) - 
 
 ***************************
@@ -10,7 +10,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.acron.demo.controller.UserController required a bean of type 'com.acron.demo.service.UserService' that could not be found.
+Field userService in com.acron.demo.controller.UserController required a bean of type 'com.acron.demo.service.IUserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -18,9 +18,9 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'com.acron.demo.service.UserService' in your configuration.
+Consider defining a bean of type 'com.acron.demo.service.IUserService' in your configuration.
 
-[18:09:32:169] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.acron.demo.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+[18:09:32:169] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.acron.demo.service.IUserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
 [18:09:32:335] [ERROR] - org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:40) - 
 
 ***************************
@@ -29,14 +29,14 @@ APPLICATION FAILED TO START
 
 Description:
 
-A component required a bean of type 'com.acron.demo.service.UserService' that could not be found.
+A component required a bean of type 'com.acron.demo.service.IUserService' that could not be found.
 
 
 Action:
 
-Consider defining a bean of type 'com.acron.demo.service.UserService' in your configuration.
+Consider defining a bean of type 'com.acron.demo.service.IUserService' in your configuration.
 
-[18:12:16:494] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.acron.demo.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[18:12:16:494] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.acron.demo.service.IUserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 [18:12:16:613] [ERROR] - org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:40) - 
 
 ***************************
@@ -45,7 +45,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.acron.demo.controller.UserController required a bean of type 'com.acron.demo.service.UserService' that could not be found.
+Field userService in com.acron.demo.controller.UserController required a bean of type 'com.acron.demo.service.IUserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -53,9 +53,9 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'com.acron.demo.service.UserService' in your configuration.
+Consider defining a bean of type 'com.acron.demo.service.IUserService' in your configuration.
 
-[18:13:05:604] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.acron.demo.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[18:13:05:604] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.acron.demo.service.IUserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 [18:13:05:723] [ERROR] - org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:40) - 
 
 ***************************
@@ -64,7 +64,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.acron.demo.controller.UserController required a bean of type 'com.acron.demo.service.UserService' that could not be found.
+Field userService in com.acron.demo.controller.UserController required a bean of type 'com.acron.demo.service.IUserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -72,9 +72,9 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'com.acron.demo.service.UserService' in your configuration.
+Consider defining a bean of type 'com.acron.demo.service.IUserService' in your configuration.
 
-[18:13:18:139] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.acron.demo.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[18:13:18:139] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.acron.demo.service.IUserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 [18:13:18:257] [ERROR] - org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:40) - 
 
 ***************************
@@ -83,7 +83,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.acron.demo.controller.UserController required a bean of type 'com.acron.demo.service.UserService' that could not be found.
+Field userService in com.acron.demo.controller.UserController required a bean of type 'com.acron.demo.service.IUserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -91,7 +91,7 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'com.acron.demo.service.UserService' in your configuration.
+Consider defining a bean of type 'com.acron.demo.service.IUserService' in your configuration.
 
 [19:19:34:639] [ERROR] - org.springframework.boot.SpringApplication.reportFailure(SpringApplication.java:821) - Application run failed
 org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'logging.level' to java.util.Map<java.lang.String, java.lang.String>

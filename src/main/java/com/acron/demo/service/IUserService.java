@@ -8,5 +8,5 @@ import org.springframework.stereotype.Service;
  * @author Acron
  * @since 2019/06/23 19:12
  */
-public interface UserService extends IService<User> {
+public interface IUserService extends IService<User> {
 }

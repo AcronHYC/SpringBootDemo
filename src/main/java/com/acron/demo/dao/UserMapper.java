@@ -8,5 +8,6 @@ import org.springframework.stereotype.Repository;
  * @author Acron
  * @since 2019/06/23 19:04
  */
+@Repository("userMapper")
 public interface UserMapper extends BaseMapper<User> {
 }

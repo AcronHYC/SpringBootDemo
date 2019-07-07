@@ -119,7 +119,7 @@ Unconditional classes:
 [18:07:31:262] [INFO] - org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [18:07:32:078] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90) - Tomcat initialized with port(s): 8080 (http)
 [18:07:32:176] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:283) - Root WebApplicationContext: initialization completed in 914 ms
-[18:07:32:286] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.acron.demo.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[18:07:32:286] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.acron.demo.service.IUserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 [18:07:32:306] [INFO] - org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(ConditionEvaluationReportLoggingListener.java:135) - 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
@@ -131,7 +131,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.acron.demo.controller.UserController required a bean of type 'com.acron.demo.service.UserService' that could not be found.
+Field userService in com.acron.demo.controller.UserController required a bean of type 'com.acron.demo.service.IUserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -139,7 +139,7 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'com.acron.demo.service.UserService' in your configuration.
+Consider defining a bean of type 'com.acron.demo.service.IUserService' in your configuration.
 
 [18:09:31:184] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 8120 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
 [18:09:31:188] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
@@ -147,7 +147,7 @@ Consider defining a bean of type 'com.acron.demo.service.UserService' in your co
 [18:09:31:224] [INFO] - org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [18:09:32:024] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90) - Tomcat initialized with port(s): 8080 (http)
 [18:09:32:113] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:283) - Root WebApplicationContext: initialization completed in 889 ms
-[18:09:32:169] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.acron.demo.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+[18:09:32:169] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.acron.demo.service.IUserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
 [18:09:32:235] [INFO] - org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(ConditionEvaluationReportLoggingListener.java:135) - 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
@@ -159,12 +159,12 @@ APPLICATION FAILED TO START
 
 Description:
 
-A component required a bean of type 'com.acron.demo.service.UserService' that could not be found.
+A component required a bean of type 'com.acron.demo.service.IUserService' that could not be found.
 
 
 Action:
 
-Consider defining a bean of type 'com.acron.demo.service.UserService' in your configuration.
+Consider defining a bean of type 'com.acron.demo.service.IUserService' in your configuration.
 
 [18:12:15:460] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 18064 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
 [18:12:15:466] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
@@ -172,7 +172,7 @@ Consider defining a bean of type 'com.acron.demo.service.UserService' in your co
 [18:12:15:502] [INFO] - org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [18:12:16:294] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90) - Tomcat initialized with port(s): 8080 (http)
 [18:12:16:384] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:283) - Root WebApplicationContext: initialization completed in 880 ms
-[18:12:16:494] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.acron.demo.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[18:12:16:494] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.acron.demo.service.IUserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 [18:12:16:513] [INFO] - org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(ConditionEvaluationReportLoggingListener.java:135) - 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
@@ -184,7 +184,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.acron.demo.controller.UserController required a bean of type 'com.acron.demo.service.UserService' that could not be found.
+Field userService in com.acron.demo.controller.UserController required a bean of type 'com.acron.demo.service.IUserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -192,7 +192,7 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'com.acron.demo.service.UserService' in your configuration.
+Consider defining a bean of type 'com.acron.demo.service.IUserService' in your configuration.
 
 [18:13:04:562] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 8972 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
 [18:13:04:568] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
@@ -200,7 +200,7 @@ Consider defining a bean of type 'com.acron.demo.service.UserService' in your co
 [18:13:04:609] [INFO] - org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [18:13:05:407] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90) - Tomcat initialized with port(s): 8080 (http)
 [18:13:05:493] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:283) - Root WebApplicationContext: initialization completed in 884 ms
-[18:13:05:604] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.acron.demo.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[18:13:05:604] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.acron.demo.service.IUserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 [18:13:05:623] [INFO] - org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(ConditionEvaluationReportLoggingListener.java:135) - 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
@@ -212,7 +212,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.acron.demo.controller.UserController required a bean of type 'com.acron.demo.service.UserService' that could not be found.
+Field userService in com.acron.demo.controller.UserController required a bean of type 'com.acron.demo.service.IUserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -220,7 +220,7 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'com.acron.demo.service.UserService' in your configuration.
+Consider defining a bean of type 'com.acron.demo.service.IUserService' in your configuration.
 
 [18:13:17:071] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 13820 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
 [18:13:17:077] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
@@ -228,7 +228,7 @@ Consider defining a bean of type 'com.acron.demo.service.UserService' in your co
 [18:13:17:118] [INFO] - org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [18:13:17:944] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90) - Tomcat initialized with port(s): 8080 (http)
 [18:13:18:033] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:283) - Root WebApplicationContext: initialization completed in 915 ms
-[18:13:18:139] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.acron.demo.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[18:13:18:139] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.acron.demo.service.IUserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 [18:13:18:158] [INFO] - org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(ConditionEvaluationReportLoggingListener.java:135) - 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
@@ -240,7 +240,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.acron.demo.controller.UserController required a bean of type 'com.acron.demo.service.UserService' that could not be found.
+Field userService in com.acron.demo.controller.UserController required a bean of type 'com.acron.demo.service.IUserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -248,7 +248,7 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'com.acron.demo.service.UserService' in your configuration.
+Consider defining a bean of type 'com.acron.demo.service.IUserService' in your configuration.
 
 [18:14:36:698] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 12208 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
 [18:14:36:703] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod

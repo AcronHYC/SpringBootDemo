@@ -6,7 +6,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.acron.demo.controller.UserController required a bean of type 'com.acron.demo.service.UserService' that could not be found.
+Field userService in com.acron.demo.controller.UserController required a bean of type 'com.acron.demo.service.IUserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -14,7 +14,7 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'com.acron.demo.service.UserService' in your configuration.
+Consider defining a bean of type 'com.acron.demo.service.IUserService' in your configuration.
 
 [18:09:32:335] [ERROR] - org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:40) - 
 
@@ -24,12 +24,12 @@ APPLICATION FAILED TO START
 
 Description:
 
-A component required a bean of type 'com.acron.demo.service.UserService' that could not be found.
+A component required a bean of type 'com.acron.demo.service.IUserService' that could not be found.
 
 
 Action:
 
-Consider defining a bean of type 'com.acron.demo.service.UserService' in your configuration.
+Consider defining a bean of type 'com.acron.demo.service.IUserService' in your configuration.
 
 [18:12:16:613] [ERROR] - org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:40) - 
 
@@ -39,7 +39,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.acron.demo.controller.UserController required a bean of type 'com.acron.demo.service.UserService' that could not be found.
+Field userService in com.acron.demo.controller.UserController required a bean of type 'com.acron.demo.service.IUserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -47,7 +47,7 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'com.acron.demo.service.UserService' in your configuration.
+Consider defining a bean of type 'com.acron.demo.service.IUserService' in your configuration.
 
 [18:13:05:723] [ERROR] - org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:40) - 
 
@@ -57,7 +57,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.acron.demo.controller.UserController required a bean of type 'com.acron.demo.service.UserService' that could not be found.
+Field userService in com.acron.demo.controller.UserController required a bean of type 'com.acron.demo.service.IUserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -65,7 +65,7 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'com.acron.demo.service.UserService' in your configuration.
+Consider defining a bean of type 'com.acron.demo.service.IUserService' in your configuration.
 
 [18:13:18:257] [ERROR] - org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:40) - 
 
@@ -75,7 +75,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.acron.demo.controller.UserController required a bean of type 'com.acron.demo.service.UserService' that could not be found.
+Field userService in com.acron.demo.controller.UserController required a bean of type 'com.acron.demo.service.IUserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -83,7 +83,7 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'com.acron.demo.service.UserService' in your configuration.
+Consider defining a bean of type 'com.acron.demo.service.IUserService' in your configuration.
 
 [19:19:34:639] [ERROR] - org.springframework.boot.SpringApplication.reportFailure(SpringApplication.java:821) - Application run failed
 org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'logging.level' to java.util.Map<java.lang.String, java.lang.String>

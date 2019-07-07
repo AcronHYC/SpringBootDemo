@@ -6,7 +6,48 @@ server:
 logging:
   config: classpath:log4j2.xml
 
+user:
+  order:
+    queue:
+      name: local.user.order.queue
+    exchange:
+      name: local.user.order.exchange
+    routing:
+      key:
+        name: local.user.order.routing.key
+
+mail:
+  fromMail: AcronHYC@163.com
+  queue:
+    name: local.mail.queue
+  exchange:
+      name: local.mail.exchange
+  routing:
+      key:
+        name: local.mail.routing.key
+
 spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    listener:
+      simple:
+        concurrency: 10   #并发消费者的初始数量
+        max-concurrency: 20   #并发消费者的最大数量
+        prefetch: 5   #消费者每次监听可拉取的消息数量
+  mail:
+    host: smtp.163.com
+    username: AcronHYC@163.com
+    password: zxc123   #授权码
+    default-encoding: UTF-8
+    port: 25
+  http:
+    encoding:
+      charset: utf-8
+      enabled: true
+      force: true
   profiles:
     active: prod
   devtools:
@@ -58,13 +99,15 @@ spring:
         reset-enable: false   #禁用HTML页面上的“Reset All”功能
         login-username: druid   #登录名
         login-password: 123456   #登录密码
+
 mybatis-plus:
   mapper-locations: classpath*:mapper/*Mapper.xml
   type-aliases-package: com.acron.demo.entity
   configuration:
     default-enum-type-handler: com.baomidou.mybatisplus.extension.handlers.EnumTypeHandler  #注解方式或IEnum接口使用该包
+    map-underscore-to-camel-case: false    #取消驼峰模式
   type-enums-package: com.acron.demo.enums    #配置type-enums-package只对注解方式的枚举处理能提前加载缓存
   global-config:
     db-config:
-      capital-mode: true   #数据库大写下划线转换
-      table-underline: true   #驼峰下划线转换
+      table-underline: false
+      capital-mode: false
