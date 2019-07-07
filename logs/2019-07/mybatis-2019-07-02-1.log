@@ -1,0 +1,288 @@
+[19:27:57:509] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplicationTests on Acron with PID 14880 (started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[19:27:57:512] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[19:27:57:513] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[19:28:04:162] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplicationTests in 7.138 seconds (JVM running for 8.682)
+[19:31:11:970] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplicationTests on Acron with PID 8572 (started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[19:31:11:971] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[19:31:11:972] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[19:31:18:616] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplicationTests in 7.042 seconds (JVM running for 8.275)
+[19:58:28:402] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplicationTests on Acron with PID 7152 (started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[19:58:28:403] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[19:58:28:403] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[19:58:35:041] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplicationTests in 6.965 seconds (JVM running for 8.188)
+[20:07:15:384] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplicationTests on Acron with PID 9160 (started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[20:07:15:385] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[20:07:15:386] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[20:07:22:098] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplicationTests in 7.064 seconds (JVM running for 8.386)
+[20:08:44:569] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplicationTests on Acron with PID 11412 (started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[20:08:44:570] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[20:08:44:570] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[20:08:51:504] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplicationTests in 7.255 seconds (JVM running for 8.872)
+[20:10:27:597] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplicationTests on Acron with PID 17184 (started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[20:10:27:598] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[20:10:27:599] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[20:10:34:702] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplicationTests in 7.565 seconds (JVM running for 9.159)
+[22:35:19:285] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplicationTests on Acron with PID 1784 (started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:35:19:286] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:35:19:286] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:36:23:482] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplicationTests on Acron with PID 13284 (started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:36:23:483] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:36:23:484] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:38:08:819] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 7196 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:38:08:823] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:38:08:824] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:43:47:579] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 13492 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:43:47:587] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:43:47:587] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:43:52:169] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 5.025 seconds (JVM running for 5.877)
+[22:44:14:670] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplicationTests on Acron with PID 13972 (started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:44:14:671] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:44:14:671] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:44:23:027] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplicationTests in 8.651 seconds (JVM running for 10.027)
+[22:46:05:249] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 14836 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:46:05:257] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:46:05:258] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:46:10:731] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 5.879 seconds (JVM running for 6.851)
+[22:47:19:629] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 6380 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:47:19:636] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:47:19:637] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:51:48:485] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 7776 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:51:48:500] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:51:48:502] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[23:00:23:963] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 17664 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[23:00:23:968] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[23:00:23:969] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[23:02:54:218] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 11524 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[23:02:54:225] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[23:02:54:225] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[23:03:15:631] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplicationTests on Acron with PID 11812 (started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[23:03:15:632] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[23:03:15:632] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[23:07:30:462] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplicationTests on Acron with PID 18576 (started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[23:07:30:463] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[23:07:30:464] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[23:11:37:303] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 14588 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[23:11:37:309] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[23:11:37:310] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[23:16:37:614] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplicationTests on Acron with PID 14804 (started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[23:16:37:616] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[23:16:37:616] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[23:21:55:023] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplicationTests on Acron with PID 11472 (started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[23:21:55:024] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[23:21:55:024] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[23:24:20:229] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplicationTests on Acron with PID 10836 (started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[23:24:20:230] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[23:24:20:231] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[23:24:26:939] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplicationTests in 7.017 seconds (JVM running for 8.256)
+[23:24:27:166] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:24:27
+[23:24:27:194] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:24:27
+[23:28:43:909] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplicationTests on Acron with PID 15172 (started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[23:28:43:910] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[23:28:43:911] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[23:28:50:983] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplicationTests in 7.352 seconds (JVM running for 8.566)
+[23:28:51:133] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:28:51
+[23:28:51:162] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:28:51
+[23:41:07:767] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplicationTests on Acron with PID 14768 (started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[23:41:07:769] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[23:41:07:769] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[23:41:15:124] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplicationTests in 7.691 seconds (JVM running for 8.897)
+[23:41:15:288] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:402] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:403] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:404] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:404] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:405] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:406] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:406] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:408] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:408] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:408] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:409] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:410] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:410] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:411] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:411] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:413] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:413] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:413] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:413] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:414] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:414] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:414] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:414] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:415] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:415] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:415] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:415] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:415] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:416] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:416] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:416] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:417] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:417] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:418] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:418] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:418] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:419] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:419] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:419] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:420] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:420] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:421] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:421] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:421] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:422] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:422] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:422] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:423] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:423] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:423] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:424] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:424] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:425] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:425] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:426] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:426] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:427] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:427] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:427] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:427] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:428] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:428] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:429] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:429] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:430] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:430] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:430] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:430] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:431] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:431] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:431] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:431] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:432] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:432] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:432] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:433] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:433] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:433] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:434] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:434] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:434] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:434] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:434] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:435] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:435] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:435] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:435] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:436] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:436] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:436] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:436] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:436] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:437] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:437] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:437] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:437] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:438] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:438] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:438] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:438] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:438] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:439] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:439] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:439] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:439] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:440] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:440] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:440] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:441] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:441] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:441] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:441] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:441] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:442] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:442] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:442] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:442] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:442] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:443] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:443] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:443] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:443] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:444] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:444] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:444] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:444] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:445] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:445] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:445] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:446] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:446] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:446] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:446] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:447] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:447] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:448] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:448] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:448] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:448] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:449] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:449] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:450] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:450] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:451] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:451] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:451] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:451] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:452] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:452] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:452] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:452] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:453] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:453] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:453] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:453] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:453] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:454] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:454] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:454] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:454] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:455] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:455] [INFO] - com.acron.demo.rabbitMQ.Sender.send(Sender.java:27) - Sender send:Test:2019-07-02  23:41:15
+[23:41:15:455] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:456] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:457] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:457] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:458] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:458] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:459] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:459] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:460] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:460] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:461] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:462] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:463] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:463] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:464] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:465] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:465] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:466] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:468] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:469] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:469] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:469] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:469] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:470] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:470] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:470] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:470] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:471] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:471] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:471] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:471] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:472] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:472] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:472] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:473] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:473] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15
+[23:41:15:474] [INFO] - com.acron.demo.rabbitMQ.Receiver.receive(Receiver.java:22) - Receiver receive:Test:2019-07-02  23:41:15

@@ -1,0 +1,57 @@
+[20:53:53:186] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 14020 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[20:53:53:201] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[20:53:53:202] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[20:53:57:994] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 5.372 seconds (JVM running for 6.279)
+[20:55:57:366] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 14020 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[20:55:57:366] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[20:55:57:366] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[20:55:58:909] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 1.576 seconds (JVM running for 127.194)
+[20:56:23:808] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 6828 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[20:56:23:814] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[20:56:23:815] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[20:56:28:297] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 4.885 seconds (JVM running for 5.722)
+[20:56:58:451] [INFO] - com.acron.demo.service.impl.SMSServiceImpl.send(SMSServiceImpl.java:44) - SMS_发送状态：200
+[20:56:58:451] [INFO] - com.acron.demo.service.impl.SMSServiceImpl.send(SMSServiceImpl.java:46) - Header:Cache-Control: no-cache
+
+[20:56:58:451] [INFO] - com.acron.demo.service.impl.SMSServiceImpl.send(SMSServiceImpl.java:46) - Header:Content-Length: 3
+
+[20:56:58:452] [INFO] - com.acron.demo.service.impl.SMSServiceImpl.send(SMSServiceImpl.java:46) - Header:Content-Type: text/html
+
+[20:56:58:452] [INFO] - com.acron.demo.service.impl.SMSServiceImpl.send(SMSServiceImpl.java:46) - Header:Expires: Sun, 30 Jun 2019 12:56:32 GMT
+
+[20:56:58:452] [INFO] - com.acron.demo.service.impl.SMSServiceImpl.send(SMSServiceImpl.java:46) - Header:Server: Microsoft-IIS/7.5
+
+[20:56:58:452] [INFO] - com.acron.demo.service.impl.SMSServiceImpl.send(SMSServiceImpl.java:46) - Header:Set-Cookie: CHNET=Temp%5Fusername=20197120563288511; expires=Sun, 27-Mar-2022 12:56:32 GMT; path=/
+
+[20:56:58:452] [INFO] - com.acron.demo.service.impl.SMSServiceImpl.send(SMSServiceImpl.java:46) - Header:Set-Cookie: ccvc=LoginMAC=66509224; expires=Tue, 30-Jun-2020 12:56:32 GMT; path=/
+
+[20:56:58:453] [INFO] - com.acron.demo.service.impl.SMSServiceImpl.send(SMSServiceImpl.java:46) - Header:Set-Cookie: ASPSESSIONIDSQRSQACB=HNKNOMGAGNPGMDADMAIDLKIK; path=/
+
+[20:56:58:453] [INFO] - com.acron.demo.service.impl.SMSServiceImpl.send(SMSServiceImpl.java:46) - Header:X-Powered-By: ASP.NET
+
+[20:56:58:453] [INFO] - com.acron.demo.service.impl.SMSServiceImpl.send(SMSServiceImpl.java:46) - Header:Date: Mon, 01 Jul 2019 12:56:31 GMT
+
+[20:58:47:667] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 6828 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[20:58:47:667] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[20:58:47:667] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[20:58:49:163] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 1.531 seconds (JVM running for 146.588)
+[21:00:27:349] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1588 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:00:27:355] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:00:27:356] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:00:31:943] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 4.963 seconds (JVM running for 5.826)
+[21:00:46:717] [INFO] - com.acron.demo.service.impl.SMSServiceImpl.send(SMSServiceImpl.java:44) - SMS_发送状态：200
+[21:02:36:979] [INFO] - com.acron.demo.service.impl.SMSServiceImpl.send(SMSServiceImpl.java:44) - SMS_发送状态：200
+[21:07:24:393] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1588 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:07:24:395] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:07:24:395] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:07:25:887] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 1.528 seconds (JVM running for 419.771)
+[21:08:59:522] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 8428 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:08:59:528] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:08:59:528] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:09:04:070] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 4.931 seconds (JVM running for 5.748)
+[21:09:29:504] [INFO] - com.acron.demo.service.impl.SMSServiceImpl.send(SMSServiceImpl.java:44) - SMS_发送状态：200
+[21:09:29:517] [INFO] - com.acron.demo.controller.LogAndRegController.getPhoneVerificationCode(LogAndRegController.java:63) - 手机验证码发送成功!
+[21:10:22:639] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 8428 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:10:22:640] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:10:22:640] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:10:24:169] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 1.566 seconds (JVM running for 85.847)
