@@ -1,0 +1,84 @@
+[21:02:24:442] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1448 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:02:24:444] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:02:24:444] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:02:27:157] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 2.81 seconds (JVM running for 82110.213)
+[21:02:30:402] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1448 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:02:30:403] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:02:30:403] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:02:33:307] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 2.964 seconds (JVM running for 82116.364)
+[21:10:48:533] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1448 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:10:48:533] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:10:48:533] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:11:47:330] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1448 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:11:47:330] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:11:47:330] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:11:49:394] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 2.107 seconds (JVM running for 82672.45)
+[21:16:06:463] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1448 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:16:06:463] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:16:06:463] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:16:08:368] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 1.939 seconds (JVM running for 82931.424)
+[21:17:43:595] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1448 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:17:43:595] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:17:43:596] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:17:46:566] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 3.028 seconds (JVM running for 83029.622)
+[21:18:36:530] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1448 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:18:36:530] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:18:36:530] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:19:37:304] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1448 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:19:37:304] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:19:37:304] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:19:39:543] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 2.271 seconds (JVM running for 83142.6)
+[21:50:40:444] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1448 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:50:40:444] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:50:40:445] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:50:52:216] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1448 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:50:52:216] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:50:52:217] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:58:16:339] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1448 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:58:16:340] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:58:16:340] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:58:24:888] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1448 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:58:24:888] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:58:24:889] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:59:10:757] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1448 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:59:10:757] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:59:10:757] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:00:10:642] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1448 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:00:10:642] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:00:10:642] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:00:18:206] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1448 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:00:18:206] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:00:18:206] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:00:22:733] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1448 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:00:22:733] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:00:22:733] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:00:49:772] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1448 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:00:49:772] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:00:49:772] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:01:45:565] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1448 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:01:45:565] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:01:45:565] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:01:47:084] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1448 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:01:47:084] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:01:47:085] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:02:29:873] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1448 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:02:29:874] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:02:29:874] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:02:31:408] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1448 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:02:31:408] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:02:31:408] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:02:48:008] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1448 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:02:48:008] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:02:48:008] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:05:05:336] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1448 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:05:05:336] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:05:05:336] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:11:33:110] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1448 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:11:33:110] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:11:33:110] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:13:52:312] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1448 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:13:52:312] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:13:52:312] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:17:08:117] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1448 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:17:08:117] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:17:08:117] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod

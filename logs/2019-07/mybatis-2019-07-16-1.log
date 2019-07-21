@@ -1,0 +1,31 @@
+[21:48:46:161] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 4132 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:48:46:175] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:48:46:176] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:48:52:769] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 6.993 seconds (JVM running for 9.43)
+[21:50:31:652] [INFO] - com.acron.demo.core.websocket.Handshake.beforeHandshake(Handshake.java:40) - 记录登录用户ID：1dee882b0d669adf4a663448927b9a8e
+[21:50:31:701] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionEstablished(Handler.java:28) - 客户端连接成功！
+[21:50:31:752] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionEstablished(Handler.java:36) - 当前连接用户数量：1
+[21:51:22:628] [INFO] - com.acron.demo.core.websocket.Handshake.beforeHandshake(Handshake.java:40) - 记录登录用户ID：1dee882b0d669adf4a663448927b9a8e
+[21:51:22:631] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionEstablished(Handler.java:28) - 客户端连接成功！
+[21:51:22:632] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionEstablished(Handler.java:36) - 当前连接用户数量：2
+[21:53:42:570] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionClosed(Handler.java:66) - 连接断开:CloseStatus[code=1001, reason=The web application is stopping]
+[21:53:42:572] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionClosed(Handler.java:66) - 连接断开:CloseStatus[code=1001, reason=The web application is stopping]
+[21:53:42:814] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 4132 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:53:42:814] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:53:42:814] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:53:44:795] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 2.023 seconds (JVM running for 301.457)
+[21:54:24:252] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 2936 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:54:24:258] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:54:24:259] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:54:30:080] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 6.207 seconds (JVM running for 7.361)
+[21:55:01:927] [INFO] - com.acron.demo.core.websocket.Handshake.beforeHandshake(Handshake.java:38) - 记录登录用户ID：1dee882b0d669adf4a663448927b9a8e
+[21:55:01:968] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionEstablished(Handler.java:28) - 客户端连接成功！
+[21:55:01:973] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionEstablished(Handler.java:35) - 当前连接用户数量：1
+[21:55:51:779] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionClosed(Handler.java:65) - 连接断开:CloseStatus[code=1001, reason=The web application is stopping]
+[21:55:51:998] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 2936 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:55:51:999] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:55:51:999] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:55:53:955] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 1.996 seconds (JVM running for 91.236)
+[22:07:59:316] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 2936 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:07:59:316] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:07:59:316] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod

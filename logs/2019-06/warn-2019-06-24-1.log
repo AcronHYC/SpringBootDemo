@@ -720,9 +720,9 @@ Caused by: java.nio.charset.MalformedInputException: Input length = 2
 	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadDocuments(ConfigFileApplicationListener.java:542) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
 	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:497) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
 	... 28 more
-[20:38:24:017] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.TypeNotPresentException: Type com.acron.demo.entity.User not present
+[20:38:24:017] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.TypeNotPresentException: Type com.acron.demo.entity.database.User not present
 [20:38:24:034] [ERROR] - org.springframework.boot.SpringApplication.reportFailure(SpringApplication.java:821) - Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.TypeNotPresentException: Type com.acron.demo.entity.User not present
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.TypeNotPresentException: Type com.acron.demo.entity.database.User not present
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:380) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
@@ -746,7 +746,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_211]
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_211]
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-Caused by: java.lang.TypeNotPresentException: Type com.acron.demo.entity.User not present
+Caused by: java.lang.TypeNotPresentException: Type com.acron.demo.entity.database.User not present
 	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117) ~[?:1.8.0_211]
 	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125) ~[?:1.8.0_211]
 	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[?:1.8.0_211]
@@ -773,7 +773,7 @@ Caused by: java.lang.TypeNotPresentException: Type com.acron.demo.entity.User no
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
 	... 22 more
-Caused by: java.lang.ClassNotFoundException: com.acron.demo.entity.User
+Caused by: java.lang.ClassNotFoundException: com.acron.demo.entity.database.User
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[?:1.8.0_211]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_211]
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349) ~[?:1.8.0_211]

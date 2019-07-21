@@ -1,10 +1,11 @@
 package com.acron.demo.controller;
 
-import com.acron.demo.entity.User;
+import com.acron.demo.core.base.controller.BaseController;
+import com.acron.demo.core.base.entity.CustomException;
+import com.acron.demo.entity.database.User;
 import com.acron.demo.service.IUserService;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
-import com.baomidou.mybatisplus.extension.service.IService;
 import io.swagger.annotations.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
@@ -12,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.annotation.Resource;
 import javax.validation.Valid;
 import java.lang.reflect.Field;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -23,16 +25,15 @@ import java.util.Map;
 @RestController
 @Slf4j
 @RequestMapping("/user")
-public class UserController{
+public class UserController extends BaseController<IUserService,User> {
     @Resource
     private IUserService userService;
 
     private User user=new User();
 
-    @ApiOperation(value="根据ID查询用户", notes="根据ID查询用户")
-    @GetMapping("/{id}")
-    public User findUserById(@ApiParam("查询条件") @PathVariable String id){
-        return  userService.getById(id);
+    @Override
+    public void initController(){
+        setService(userService);
     }
 
     @ApiOperation(value="根据参数查询用户", notes="根据参数查询用户")

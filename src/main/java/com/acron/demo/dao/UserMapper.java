@@ -1,6 +1,6 @@
 package com.acron.demo.dao;
 
-import com.acron.demo.entity.User;
+import com.acron.demo.entity.database.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.springframework.stereotype.Repository;
 

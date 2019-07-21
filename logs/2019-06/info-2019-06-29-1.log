@@ -443,7 +443,7 @@ Caused by: java.lang.NoClassDefFoundError: com/acron/demo/entity/User
 	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:389) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:248) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
 	... 23 more
-Caused by: java.lang.ClassNotFoundException: com.acron.demo.entity.User
+Caused by: java.lang.ClassNotFoundException: com.acron.demo.entity.database.User
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[?:1.8.0_211]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_211]
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349) ~[?:1.8.0_211]
@@ -563,7 +563,7 @@ Caused by: java.lang.NoClassDefFoundError: com/acron/demo/entity/User
 	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:389) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:248) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
 	... 23 more
-Caused by: java.lang.ClassNotFoundException: com.acron.demo.entity.User
+Caused by: java.lang.ClassNotFoundException: com.acron.demo.entity.database.User
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[?:1.8.0_211]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_211]
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349) ~[?:1.8.0_211]
@@ -1386,7 +1386,7 @@ java.sql.SQLSyntaxErrorException: Unknown column 'userName' in 'where clause'
 [17:28:07:867] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524) - Initializing Servlet 'dispatcherServlet'
 [17:28:07:874] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546) - Completed initialization in 6 ms
 [17:28:07:921] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:47) - 查询参数：{}
-[17:28:07:922] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.User
+[17:28:07:922] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.database.User
 [17:28:08:069] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:57) - 查询结果：[User(userName=Acron, password=123456, sex=MALE, telephone=13132222, email=123), User(userName=string, password=string, sex=MALE, telephone=string, email=222@qq.com)]
 [17:28:52:656] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 2300 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
 [17:28:52:662] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
@@ -1408,10 +1408,10 @@ java.sql.SQLSyntaxErrorException: Unknown column 'userName' in 'where clause'
 [17:29:08:137] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524) - Initializing Servlet 'dispatcherServlet'
 [17:29:08:150] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546) - Completed initialization in 13 ms
 [17:29:08:204] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:47) - 查询参数：{}
-[17:29:08:206] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.User
+[17:29:08:206] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.database.User
 [17:29:08:384] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:57) - 查询结果：[User(userName=Acron, password=123456, sex=MALE, telephone=13132222, email=123), User(userName=string, password=string, sex=MALE, telephone=string, email=222@qq.com)]
 [17:29:12:311] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:47) - 查询参数：{}
-[17:29:12:311] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.User
+[17:29:12:311] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.database.User
 [17:29:12:317] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:57) - 查询结果：[User(userName=Acron, password=123456, sex=MALE, telephone=13132222, email=123), User(userName=string, password=string, sex=MALE, telephone=string, email=222@qq.com)]
 [17:29:21:084] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
 [17:29:21:090] [INFO] - com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1825) - {dataSource-1} closed
@@ -1435,10 +1435,10 @@ java.sql.SQLSyntaxErrorException: Unknown column 'userName' in 'where clause'
 [17:29:40:903] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524) - Initializing Servlet 'dispatcherServlet'
 [17:29:40:912] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546) - Completed initialization in 8 ms
 [17:29:40:964] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:47) - 查询参数：{}
-[17:29:40:965] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.User
+[17:29:40:965] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.database.User
 [17:29:41:132] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:57) - 查询结果：[User(userName=Acron, password=123456, sex=MALE, telephone=13132222, email=123), User(userName=string, password=string, sex=MALE, telephone=string, email=222@qq.com)]
 [17:30:15:417] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:47) - 查询参数：{id=test}
-[17:30:15:418] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.User
+[17:30:15:418] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.database.User
 [17:31:04:134] [INFO] - com.acron.demo.controller.UserController.lambda$findUserByParams$0(UserController.java:53) - userName
 [17:31:04:135] [INFO] - com.acron.demo.controller.UserController.lambda$findUserByParams$0(UserController.java:53) - password
 [17:31:04:135] [INFO] - com.acron.demo.controller.UserController.lambda$findUserByParams$0(UserController.java:53) - sex
@@ -1484,7 +1484,7 @@ java.sql.SQLSyntaxErrorException: Unknown column 'userName' in 'where clause'
 [17:34:33:479] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524) - Initializing Servlet 'dispatcherServlet'
 [17:34:33:485] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546) - Completed initialization in 6 ms
 [17:34:33:532] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:47) - 查询参数：{id=test}
-[17:34:33:533] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.User
+[17:34:33:533] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.database.User
 [17:34:33:657] [ERROR] - com.alibaba.druid.filter.logging.Log4j2Filter.statementLogError(Log4j2Filter.java:152) - {conn-10005, pstmt-20000} execute error. SELECT  id,user_name AS userName,password,sex,telephone,email,create_date AS createDate,modify_date AS modifyDate,version  FROM user
 java.sql.SQLSyntaxErrorException: Unknown column 'user_name' in 'field list'
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.16.jar:8.0.16]
@@ -1638,7 +1638,7 @@ java.sql.SQLSyntaxErrorException: Unknown column 'user_name' in 'field list'
 [18:26:51:114] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524) - Initializing Servlet 'dispatcherServlet'
 [18:26:51:123] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546) - Completed initialization in 9 ms
 [18:26:51:174] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:47) - 查询参数：{id=test}
-[18:26:51:175] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.User
+[18:26:51:175] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.database.User
 [18:26:51:312] [ERROR] - com.alibaba.druid.filter.logging.Log4j2Filter.statementLogError(Log4j2Filter.java:152) - {conn-10005, pstmt-20000} execute error. SELECT  id,user_name AS userName,password,sex,telephone,email,create_date AS createDate,modify_date AS modifyDate,version  FROM user
 java.sql.SQLSyntaxErrorException: Unknown column 'user_name' in 'field list'
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.16.jar:8.0.16]
@@ -1775,7 +1775,7 @@ java.sql.SQLSyntaxErrorException: Unknown column 'user_name' in 'field list'
 [18:28:04:299] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524) - Initializing Servlet 'dispatcherServlet'
 [18:28:04:309] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546) - Completed initialization in 10 ms
 [18:28:13:236] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:47) - 查询参数：{additionalProp1=string, additionalProp2=string, additionalProp3=string}
-[18:28:13:238] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.User
+[18:28:13:238] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.database.User
 [18:28:13:369] [ERROR] - com.alibaba.druid.filter.logging.Log4j2Filter.statementLogError(Log4j2Filter.java:152) - {conn-10005, pstmt-20000} execute error. SELECT  id,user_name AS userName,password,sex,telephone,email,create_date AS createDate,modify_date AS modifyDate,version  FROM user
 java.sql.SQLSyntaxErrorException: Unknown column 'user_name' in 'field list'
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.16.jar:8.0.16]
@@ -1912,7 +1912,7 @@ java.sql.SQLSyntaxErrorException: Unknown column 'user_name' in 'field list'
 [18:29:27:002] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524) - Initializing Servlet 'dispatcherServlet'
 [18:29:27:011] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546) - Completed initialization in 8 ms
 [18:29:27:081] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:47) - 查询参数：{additionalProp1=string, additionalProp2=string, additionalProp3=string}
-[18:29:27:083] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.User
+[18:29:27:083] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.database.User
 [18:29:27:270] [ERROR] - com.alibaba.druid.filter.logging.Log4j2Filter.statementLogError(Log4j2Filter.java:152) - {conn-10005, pstmt-20000} execute error. SELECT  id,userName,password,sex,telephone,email,createDate,modifyDate,version  FROM user
 java.sql.SQLSyntaxErrorException: Unknown column 'userName' in 'field list'
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.16.jar:8.0.16]
@@ -2050,7 +2050,7 @@ java.sql.SQLSyntaxErrorException: Unknown column 'userName' in 'field list'
 [18:29:40:043] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524) - Initializing Servlet 'dispatcherServlet'
 [18:29:40:051] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546) - Completed initialization in 8 ms
 [18:29:46:252] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:47) - 查询参数：{additionalProp1=string, additionalProp2=string, additionalProp3=string}
-[18:29:46:252] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.User
+[18:29:46:252] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.database.User
 [18:29:46:263] [ERROR] - com.alibaba.druid.filter.logging.Log4j2Filter.statementLogError(Log4j2Filter.java:152) - {conn-110005, pstmt-120000} execute error. SELECT  id,userName,password,sex,telephone,email,createDate,modifyDate,version  FROM user
 java.sql.SQLSyntaxErrorException: Unknown column 'userName' in 'field list'
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.16.jar:8.0.16]
@@ -2168,10 +2168,10 @@ java.sql.SQLSyntaxErrorException: Unknown column 'userName' in 'field list'
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_211]
 [18:30:39:513] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:47) - 查询参数：{additionalProp1=string, additionalProp2=string, additionalProp3=string}
-[18:30:39:513] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.User
+[18:30:39:513] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.database.User
 [18:30:39:554] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:58) - 查询结果：[User(userName=Acron, password=123456, sex=MALE, telephone=13132222, email=123), User(userName=string, password=string, sex=MALE, telephone=string, email=222@qq.com)]
 [18:34:42:349] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:47) - 查询参数：{userName=a}
-[18:34:42:349] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.User
+[18:34:42:349] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.database.User
 [18:34:42:405] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:58) - 查询结果：[User(userName=Acron, password=123456, sex=MALE, telephone=13132222, email=123)]
 [18:39:42:108] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
 [18:39:42:113] [INFO] - com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1825) - {dataSource-2} closed
@@ -2213,7 +2213,7 @@ java.sql.SQLSyntaxErrorException: Unknown column 'userName' in 'field list'
 [18:41:00:260] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546) - Completed initialization in 3 ms
 [18:41:00:288] [WARN] - org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:198) - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting double-quote to start field name
  at [Source: (PushbackInputStream); line: 8, column: 2]]
-[18:42:12:093] [WARN] - org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:198) - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public boolean com.acron.demo.controller.UserController.createUser(com.acron.demo.entity.User): [Field error in object 'user' on field 'email': rejected value [string]; codes [Email.user.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@6ec1b6be,org.springframework.validation.beanvalidation.SpringValidatorAdapter$ResolvableAttribute@34dce16]; default message [邮箱格式不正确!]] ]
+[18:42:12:093] [WARN] - org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:198) - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public boolean com.acron.demo.controller.UserController.createUser(com.acron.demo.entity.database.User): [Field error in object 'user' on field 'email': rejected value [string]; codes [Email.user.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@6ec1b6be,org.springframework.validation.beanvalidation.SpringValidatorAdapter$ResolvableAttribute@34dce16]; default message [邮箱格式不正确!]] ]
 [18:42:23:239] [INFO] - com.acron.demo.controller.UserController.createUser(UserController.java:65) - 新建用户:User(userName=string测试, password=string, sex=MALE, telephone=string, email=string@qq.com)
 [18:42:55:898] [INFO] - com.acron.demo.controller.UserController.createUser(UserController.java:65) - 新建用户:User(userName=string测试1, password=string, sex=MALE, telephone=string, email=string@qq.com)
 [18:42:59:590] [INFO] - com.acron.demo.controller.UserController.createUser(UserController.java:65) - 新建用户:User(userName=string测试2, password=string, sex=MALE, telephone=string, email=string@qq.com)

@@ -1,0 +1,543 @@
+[11:40:08:697] [WARN] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.setMessageConverter(AbstractMessageListenerContainer.java:483) - It is preferred to configure the message converter via the endpoint. See RabbitListenerEndpoint.setMessageConverter
+[11:40:09:066] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[11:40:10:073] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[11:40:12:078] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[11:40:16:084] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[11:40:21:089] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[11:41:24:691] [WARN] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.setMessageConverter(AbstractMessageListenerContainer.java:483) - It is preferred to configure the message converter via the endpoint. See RabbitListenerEndpoint.setMessageConverter
+[11:41:24:988] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[11:41:25:992] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[11:41:27:998] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[11:41:32:004] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[11:41:37:013] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[11:41:54:627] [WARN] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.setMessageConverter(AbstractMessageListenerContainer.java:483) - It is preferred to configure the message converter via the endpoint. See RabbitListenerEndpoint.setMessageConverter
+[11:41:54:935] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[11:41:55:940] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[11:41:57:946] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[11:42:01:975] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[11:42:06:983] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[11:42:15:771] [ERROR] - org.springframework.boot.SpringApplication.reportFailure(SpringApplication.java:821) - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:59) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:181) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:141) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:117) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:327) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:232) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:705) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:531) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.acron.demo.DemoApplication.main(DemoApplication.java:14) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_211]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.acron.demo.core.config.WebsocketConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@420d3b76]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:507) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:404) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:389) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:447) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1688) ~[?:1.8.0_211]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:738) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:679) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:647) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1518) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1023) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.BeanTypeRegistry.addBeanTypeForNonAliasDefinition(BeanTypeRegistry.java:190) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.BeanTypeRegistry.addBeanTypeForNonAliasDefinition(BeanTypeRegistry.java:157) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.BeanTypeRegistry.addBeanType(BeanTypeRegistry.java:150) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.BeanTypeRegistry.updateTypesIfNecessary(BeanTypeRegistry.java:138) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at java.util.Iterator.forEachRemaining(Iterator.java:116) ~[?:1.8.0_211]
+	at org.springframework.boot.autoconfigure.condition.BeanTypeRegistry.updateTypesIfNecessary(BeanTypeRegistry.java:133) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.BeanTypeRegistry.getNamesForType(BeanTypeRegistry.java:97) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:268) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:261) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:250) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:170) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:145) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:46) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	... 22 more
+Caused by: java.lang.NoClassDefFoundError: org/springframework/web/socket/server/standard/ServerEndpointExporter
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:1.8.0_211]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701) ~[?:1.8.0_211]
+	at java.lang.Class.getDeclaredMethods(Class.java:1975) ~[?:1.8.0_211]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:489) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:404) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:389) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:447) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1688) ~[?:1.8.0_211]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:738) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:679) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:647) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1518) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1023) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.BeanTypeRegistry.addBeanTypeForNonAliasDefinition(BeanTypeRegistry.java:190) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.BeanTypeRegistry.addBeanTypeForNonAliasDefinition(BeanTypeRegistry.java:157) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.BeanTypeRegistry.addBeanType(BeanTypeRegistry.java:150) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.BeanTypeRegistry.updateTypesIfNecessary(BeanTypeRegistry.java:138) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at java.util.Iterator.forEachRemaining(Iterator.java:116) ~[?:1.8.0_211]
+	at org.springframework.boot.autoconfigure.condition.BeanTypeRegistry.updateTypesIfNecessary(BeanTypeRegistry.java:133) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.BeanTypeRegistry.getNamesForType(BeanTypeRegistry.java:97) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:268) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:261) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:250) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:170) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:145) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:46) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	... 22 more
+Caused by: java.lang.ClassNotFoundException: org.springframework.web.socket.server.standard.ServerEndpointExporter
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[?:1.8.0_211]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_211]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349) ~[?:1.8.0_211]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_211]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144) ~[spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_211]
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:1.8.0_211]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701) ~[?:1.8.0_211]
+	at java.lang.Class.getDeclaredMethods(Class.java:1975) ~[?:1.8.0_211]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:489) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:404) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:389) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:447) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1688) ~[?:1.8.0_211]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:738) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:679) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:647) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1518) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1023) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.BeanTypeRegistry.addBeanTypeForNonAliasDefinition(BeanTypeRegistry.java:190) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.BeanTypeRegistry.addBeanTypeForNonAliasDefinition(BeanTypeRegistry.java:157) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.BeanTypeRegistry.addBeanType(BeanTypeRegistry.java:150) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.BeanTypeRegistry.updateTypesIfNecessary(BeanTypeRegistry.java:138) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at java.util.Iterator.forEachRemaining(Iterator.java:116) ~[?:1.8.0_211]
+	at org.springframework.boot.autoconfigure.condition.BeanTypeRegistry.updateTypesIfNecessary(BeanTypeRegistry.java:133) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.BeanTypeRegistry.getNamesForType(BeanTypeRegistry.java:97) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:268) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:261) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:250) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:170) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:145) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:46) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	... 22 more
+[11:42:15:777] [WARN] - org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:803) - Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [com.acron.demo.core.config.WebsocketConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@420d3b76]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:507) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:404) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:389) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:447) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1688) ~[?:1.8.0_211]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:738) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:679) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:647) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1518) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:511) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:481) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:602) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:594) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1226) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:864) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:852) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:839) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:790) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.acron.demo.DemoApplication.main(DemoApplication.java:14) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_211]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+Caused by: java.lang.NoClassDefFoundError: org/springframework/web/socket/server/standard/ServerEndpointExporter
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:1.8.0_211]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701) ~[?:1.8.0_211]
+	at java.lang.Class.getDeclaredMethods(Class.java:1975) ~[?:1.8.0_211]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:489) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 26 more
+Caused by: java.lang.ClassNotFoundException: org.springframework.web.socket.server.standard.ServerEndpointExporter
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[?:1.8.0_211]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_211]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349) ~[?:1.8.0_211]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_211]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144) ~[spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_211]
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:1.8.0_211]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701) ~[?:1.8.0_211]
+	at java.lang.Class.getDeclaredMethods(Class.java:1975) ~[?:1.8.0_211]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:489) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 26 more
+[11:42:59:305] [WARN] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.setMessageConverter(AbstractMessageListenerContainer.java:483) - It is preferred to configure the message converter via the endpoint. See RabbitListenerEndpoint.setMessageConverter
+[11:43:00:742] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[11:43:01:754] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[11:43:03:761] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[11:43:07:770] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[11:43:12:777] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[11:52:45:794] [WARN] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.setMessageConverter(AbstractMessageListenerContainer.java:483) - It is preferred to configure the message converter via the endpoint. See RabbitListenerEndpoint.setMessageConverter
+[11:52:46:060] [ERROR] - org.springframework.boot.SpringApplication.reportFailure(SpringApplication.java:821) - Application run failed
+java.lang.IllegalStateException: Failed to register @ServerEndpoint class: class com.acron.demo.core.websocket.server.WebsocketServer
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.registerEndpoint(ServerEndpointExporter.java:158) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.registerEndpoints(ServerEndpointExporter.java:133) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.afterSingletonsInstantiated(ServerEndpointExporter.java:111) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:862) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.acron.demo.DemoApplication.main(DemoApplication.java:14) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_211]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+Caused by: javax.websocket.DeploymentException: The path [websocket/{ip}] is not valid.
+	at org.apache.tomcat.websocket.server.UriTemplate.<init>(UriTemplate.java:48) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:159) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:253) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.registerEndpoint(ServerEndpointExporter.java:155) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 17 more
+[11:53:43:233] [WARN] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.setMessageConverter(AbstractMessageListenerContainer.java:483) - It is preferred to configure the message converter via the endpoint. See RabbitListenerEndpoint.setMessageConverter
+[11:53:43:521] [ERROR] - org.springframework.boot.SpringApplication.reportFailure(SpringApplication.java:821) - Application run failed
+java.lang.IllegalStateException: Failed to register @ServerEndpoint class: class com.acron.demo.core.websocket.server.WebsocketServer
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.registerEndpoint(ServerEndpointExporter.java:158) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.registerEndpoints(ServerEndpointExporter.java:133) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.afterSingletonsInstantiated(ServerEndpointExporter.java:111) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:862) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.acron.demo.DemoApplication.main(DemoApplication.java:14) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_211]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+Caused by: javax.websocket.DeploymentException: The path [websocket/{ip}] is not valid.
+	at org.apache.tomcat.websocket.server.UriTemplate.<init>(UriTemplate.java:48) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:159) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:253) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.registerEndpoint(ServerEndpointExporter.java:155) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 17 more
+[11:55:25:852] [WARN] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.setMessageConverter(AbstractMessageListenerContainer.java:483) - It is preferred to configure the message converter via the endpoint. See RabbitListenerEndpoint.setMessageConverter
+[11:55:26:090] [ERROR] - org.springframework.boot.SpringApplication.reportFailure(SpringApplication.java:821) - Application run failed
+java.lang.IllegalStateException: Failed to register @ServerEndpoint class: class com.acron.demo.core.websocket.server.WebsocketServer
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.registerEndpoint(ServerEndpointExporter.java:158) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.registerEndpoints(ServerEndpointExporter.java:133) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.afterSingletonsInstantiated(ServerEndpointExporter.java:111) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:862) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.acron.demo.DemoApplication.main(DemoApplication.java:14) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_211]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+Caused by: javax.websocket.DeploymentException: The path [websocket/{ip}] is not valid.
+	at org.apache.tomcat.websocket.server.UriTemplate.<init>(UriTemplate.java:48) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:159) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:253) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.registerEndpoint(ServerEndpointExporter.java:155) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 17 more
+[11:55:41:947] [WARN] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.setMessageConverter(AbstractMessageListenerContainer.java:483) - It is preferred to configure the message converter via the endpoint. See RabbitListenerEndpoint.setMessageConverter
+[11:55:42:190] [ERROR] - org.springframework.boot.SpringApplication.reportFailure(SpringApplication.java:821) - Application run failed
+java.lang.IllegalStateException: Failed to register @ServerEndpoint class: class com.acron.demo.core.websocket.server.WebsocketServer
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.registerEndpoint(ServerEndpointExporter.java:158) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.registerEndpoints(ServerEndpointExporter.java:133) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.afterSingletonsInstantiated(ServerEndpointExporter.java:111) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:862) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.acron.demo.DemoApplication.main(DemoApplication.java:14) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_211]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+Caused by: javax.websocket.DeploymentException: The path [websocket/{ip}] is not valid.
+	at org.apache.tomcat.websocket.server.UriTemplate.<init>(UriTemplate.java:48) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:159) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:253) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.registerEndpoint(ServerEndpointExporter.java:155) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 17 more
+[11:57:11:778] [WARN] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.setMessageConverter(AbstractMessageListenerContainer.java:483) - It is preferred to configure the message converter via the endpoint. See RabbitListenerEndpoint.setMessageConverter
+[11:57:12:243] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[11:57:13:249] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[11:57:15:256] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[11:57:19:262] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[11:57:24:269] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[11:59:45:849] [WARN] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.setMessageConverter(AbstractMessageListenerContainer.java:483) - It is preferred to configure the message converter via the endpoint. See RabbitListenerEndpoint.setMessageConverter
+[11:59:46:085] [ERROR] - org.springframework.boot.SpringApplication.reportFailure(SpringApplication.java:821) - Application run failed
+java.lang.IllegalStateException: Failed to register @ServerEndpoint class: class com.acron.demo.core.websocket.server.WebsocketServer
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.registerEndpoint(ServerEndpointExporter.java:158) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.registerEndpoints(ServerEndpointExporter.java:133) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.afterSingletonsInstantiated(ServerEndpointExporter.java:111) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:862) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.acron.demo.DemoApplication.main(DemoApplication.java:14) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_211]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+Caused by: javax.websocket.DeploymentException: The path [websocket/{ip}] is not valid.
+	at org.apache.tomcat.websocket.server.UriTemplate.<init>(UriTemplate.java:48) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:159) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:253) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.registerEndpoint(ServerEndpointExporter.java:155) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 17 more
+[12:00:05:060] [WARN] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.setMessageConverter(AbstractMessageListenerContainer.java:483) - It is preferred to configure the message converter via the endpoint. See RabbitListenerEndpoint.setMessageConverter
+[12:00:05:401] [ERROR] - org.springframework.boot.SpringApplication.reportFailure(SpringApplication.java:821) - Application run failed
+java.lang.IllegalStateException: Failed to register @ServerEndpoint class: class com.acron.demo.core.websocket.server.WebsocketServer
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.registerEndpoint(ServerEndpointExporter.java:158) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.registerEndpoints(ServerEndpointExporter.java:133) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.afterSingletonsInstantiated(ServerEndpointExporter.java:111) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:862) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.acron.demo.DemoApplication.main(DemoApplication.java:14) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_211]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+Caused by: javax.websocket.DeploymentException: The path [websocket/{ip}] is not valid.
+	at org.apache.tomcat.websocket.server.UriTemplate.<init>(UriTemplate.java:48) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:159) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:253) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.registerEndpoint(ServerEndpointExporter.java:155) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 17 more
+[12:00:29:118] [WARN] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.setMessageConverter(AbstractMessageListenerContainer.java:483) - It is preferred to configure the message converter via the endpoint. See RabbitListenerEndpoint.setMessageConverter
+[12:00:29:411] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[12:00:30:426] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[12:00:32:433] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[12:00:36:439] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[12:00:41:445] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[12:00:58:005] [WARN] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.setMessageConverter(AbstractMessageListenerContainer.java:483) - It is preferred to configure the message converter via the endpoint. See RabbitListenerEndpoint.setMessageConverter
+[12:00:58:269] [ERROR] - org.springframework.boot.SpringApplication.reportFailure(SpringApplication.java:821) - Application run failed
+java.lang.IllegalStateException: Failed to register @ServerEndpoint class: class com.acron.demo.core.websocket.server.WebsocketServer
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.registerEndpoint(ServerEndpointExporter.java:158) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.registerEndpoints(ServerEndpointExporter.java:133) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.afterSingletonsInstantiated(ServerEndpointExporter.java:111) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:862) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.acron.demo.DemoApplication.main(DemoApplication.java:14) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_211]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+Caused by: javax.websocket.DeploymentException: The path [websocket/{ip}] is not valid.
+	at org.apache.tomcat.websocket.server.UriTemplate.<init>(UriTemplate.java:48) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:159) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:253) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.registerEndpoint(ServerEndpointExporter.java:155) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 17 more
+[12:01:18:341] [WARN] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.setMessageConverter(AbstractMessageListenerContainer.java:483) - It is preferred to configure the message converter via the endpoint. See RabbitListenerEndpoint.setMessageConverter
+[12:01:18:734] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[12:01:19:745] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[12:01:21:755] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[12:01:25:761] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[12:01:30:779] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[12:02:06:233] [WARN] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.setMessageConverter(AbstractMessageListenerContainer.java:483) - It is preferred to configure the message converter via the endpoint. See RabbitListenerEndpoint.setMessageConverter
+[12:02:06:526] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[12:02:07:531] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[12:02:09:538] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[12:02:13:543] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[12:02:18:549] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[12:03:56:037] [WARN] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.setMessageConverter(AbstractMessageListenerContainer.java:483) - It is preferred to configure the message converter via the endpoint. See RabbitListenerEndpoint.setMessageConverter
+[12:03:56:285] [ERROR] - org.springframework.boot.SpringApplication.reportFailure(SpringApplication.java:821) - Application run failed
+java.lang.IllegalStateException: Failed to register @ServerEndpoint class: class com.acron.demo.core.websocket.server.WebsocketServer
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.registerEndpoint(ServerEndpointExporter.java:158) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.registerEndpoints(ServerEndpointExporter.java:133) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.afterSingletonsInstantiated(ServerEndpointExporter.java:111) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:862) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.acron.demo.DemoApplication.main(DemoApplication.java:14) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_211]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+Caused by: javax.websocket.DeploymentException: The path [websocket/{ip}] is not valid.
+	at org.apache.tomcat.websocket.server.UriTemplate.<init>(UriTemplate.java:48) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:159) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:253) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.registerEndpoint(ServerEndpointExporter.java:155) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 17 more
+[12:05:08:732] [WARN] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.setMessageConverter(AbstractMessageListenerContainer.java:483) - It is preferred to configure the message converter via the endpoint. See RabbitListenerEndpoint.setMessageConverter
+[12:05:09:909] [ERROR] - org.springframework.boot.SpringApplication.reportFailure(SpringApplication.java:821) - Application run failed
+java.lang.IllegalStateException: Failed to register @ServerEndpoint class: class com.acron.demo.core.websocket.server.WebsocketServer
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.registerEndpoint(ServerEndpointExporter.java:158) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.registerEndpoints(ServerEndpointExporter.java:133) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.afterSingletonsInstantiated(ServerEndpointExporter.java:111) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:862) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.acron.demo.DemoApplication.main(DemoApplication.java:14) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_211]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+Caused by: javax.websocket.DeploymentException: The path [websocket/{ip}] is not valid.
+	at org.apache.tomcat.websocket.server.UriTemplate.<init>(UriTemplate.java:48) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:159) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:253) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.registerEndpoint(ServerEndpointExporter.java:155) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 17 more
+[12:05:30:215] [WARN] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.setMessageConverter(AbstractMessageListenerContainer.java:483) - It is preferred to configure the message converter via the endpoint. See RabbitListenerEndpoint.setMessageConverter
+[12:05:31:226] [ERROR] - org.springframework.boot.SpringApplication.reportFailure(SpringApplication.java:821) - Application run failed
+java.lang.IllegalStateException: Failed to register @ServerEndpoint class: class com.acron.demo.core.websocket.server.WebsocketServer
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.registerEndpoint(ServerEndpointExporter.java:158) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.registerEndpoints(ServerEndpointExporter.java:133) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.afterSingletonsInstantiated(ServerEndpointExporter.java:111) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:862) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.acron.demo.DemoApplication.main(DemoApplication.java:14) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_211]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+Caused by: javax.websocket.DeploymentException: The path [test] is not valid.
+	at org.apache.tomcat.websocket.server.UriTemplate.<init>(UriTemplate.java:48) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:159) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:253) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.registerEndpoint(ServerEndpointExporter.java:155) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 17 more
+[21:28:34:397] [WARN] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.setMessageConverter(AbstractMessageListenerContainer.java:483) - It is preferred to configure the message converter via the endpoint. See RabbitListenerEndpoint.setMessageConverter
+[21:28:35:289] [ERROR] - org.springframework.boot.SpringApplication.reportFailure(SpringApplication.java:821) - Application run failed
+java.lang.IllegalStateException: Failed to register @ServerEndpoint class: class com.acron.demo.core.websocket.server.WebsocketServer
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.registerEndpoint(ServerEndpointExporter.java:158) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.registerEndpoints(ServerEndpointExporter.java:133) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.afterSingletonsInstantiated(ServerEndpointExporter.java:111) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:862) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.acron.demo.DemoApplication.main(DemoApplication.java:14) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_211]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+Caused by: javax.websocket.DeploymentException: The path [test] is not valid.
+	at org.apache.tomcat.websocket.server.UriTemplate.<init>(UriTemplate.java:48) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:159) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:253) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.registerEndpoint(ServerEndpointExporter.java:155) ~[spring-websocket-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 17 more
+[21:32:49:423] [WARN] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.setMessageConverter(AbstractMessageListenerContainer.java:483) - It is preferred to configure the message converter via the endpoint. See RabbitListenerEndpoint.setMessageConverter
+[21:32:50:769] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[21:32:51:779] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[21:32:53:787] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[21:32:57:796] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[21:33:02:803] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1517) - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'local.order.dead.queue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+[21:35:21:178] [WARN] - org.springframework.amqp.rabbit.listener.BlockingQueueConsumer$InternalConsumer.handleCancel(BlockingQueueConsumer.java:870) - Cancel received for amq.ctag-sUPQZ3EA4jnz0ajOWzmYXw (local.order.dead.real.queue); Consumer@2e51491: tags=[[amq.ctag-sUPQZ3EA4jnz0ajOWzmYXw]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://guest@127.0.0.1:5672/,20), conn: Proxy@4f006188 Shared Rabbit Connection: SimpleConnection@6bffc294 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 64994], acknowledgeMode=NONE local queue size=0
+[21:35:21:178] [WARN] - org.springframework.amqp.rabbit.listener.BlockingQueueConsumer$InternalConsumer.handleCancel(BlockingQueueConsumer.java:870) - Cancel received for amq.ctag-TkBQnH-z0aS71F521SF_bQ (local.order.dead.real.queue); Consumer@b4341ac: tags=[[amq.ctag-TkBQnH-z0aS71F521SF_bQ]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://guest@127.0.0.1:5672/,12), conn: Proxy@4f006188 Shared Rabbit Connection: SimpleConnection@6bffc294 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 64994], acknowledgeMode=NONE local queue size=0
+[21:35:21:178] [WARN] - org.springframework.amqp.rabbit.listener.BlockingQueueConsumer$InternalConsumer.handleCancel(BlockingQueueConsumer.java:870) - Cancel received for amq.ctag-r77uFytCpcwzl-zHqMiYug (local.order.dead.real.queue); Consumer@451fee04: tags=[[amq.ctag-r77uFytCpcwzl-zHqMiYug]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://guest@127.0.0.1:5672/,16), conn: Proxy@4f006188 Shared Rabbit Connection: SimpleConnection@6bffc294 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 64994], acknowledgeMode=NONE local queue size=0
+[21:35:21:178] [WARN] - org.springframework.amqp.rabbit.listener.BlockingQueueConsumer$InternalConsumer.handleCancel(BlockingQueueConsumer.java:870) - Cancel received for amq.ctag-PqrN8HshMl9VKAuBuiQawA (local.order.dead.real.queue); Consumer@2c020f12: tags=[[amq.ctag-PqrN8HshMl9VKAuBuiQawA]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://guest@127.0.0.1:5672/,11), conn: Proxy@4f006188 Shared Rabbit Connection: SimpleConnection@6bffc294 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 64994], acknowledgeMode=NONE local queue size=0
+[21:35:21:178] [WARN] - org.springframework.amqp.rabbit.listener.BlockingQueueConsumer$InternalConsumer.handleCancel(BlockingQueueConsumer.java:870) - Cancel received for amq.ctag-5ndgJYK6gWfuJvVu8kLmuQ (local.order.dead.real.queue); Consumer@1b3f6318: tags=[[amq.ctag-5ndgJYK6gWfuJvVu8kLmuQ]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://guest@127.0.0.1:5672/,19), conn: Proxy@4f006188 Shared Rabbit Connection: SimpleConnection@6bffc294 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 64994], acknowledgeMode=NONE local queue size=0
+[21:35:21:178] [WARN] - org.springframework.amqp.rabbit.listener.BlockingQueueConsumer$InternalConsumer.handleCancel(BlockingQueueConsumer.java:870) - Cancel received for amq.ctag-pZpXrFBz8tXgqH8eL7v-Nw (local.order.dead.real.queue); Consumer@a9223dc: tags=[[amq.ctag-pZpXrFBz8tXgqH8eL7v-Nw]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://guest@127.0.0.1:5672/,13), conn: Proxy@4f006188 Shared Rabbit Connection: SimpleConnection@6bffc294 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 64994], acknowledgeMode=NONE local queue size=0
+[21:35:21:178] [WARN] - org.springframework.amqp.rabbit.listener.BlockingQueueConsumer$InternalConsumer.handleCancel(BlockingQueueConsumer.java:870) - Cancel received for amq.ctag-WVtXXt64z7qjBjXos0vhSQ (local.order.dead.real.queue); Consumer@30c7840e: tags=[[amq.ctag-WVtXXt64z7qjBjXos0vhSQ]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://guest@127.0.0.1:5672/,17), conn: Proxy@4f006188 Shared Rabbit Connection: SimpleConnection@6bffc294 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 64994], acknowledgeMode=NONE local queue size=0
+[21:35:21:178] [WARN] - org.springframework.amqp.rabbit.listener.BlockingQueueConsumer$InternalConsumer.handleCancel(BlockingQueueConsumer.java:870) - Cancel received for amq.ctag-vsULeyxA_GvEpSImbZEw3g (local.order.dead.real.queue); Consumer@36d4c703: tags=[[amq.ctag-vsULeyxA_GvEpSImbZEw3g]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://guest@127.0.0.1:5672/,18), conn: Proxy@4f006188 Shared Rabbit Connection: SimpleConnection@6bffc294 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 64994], acknowledgeMode=NONE local queue size=0
+[21:35:21:178] [WARN] - org.springframework.amqp.rabbit.listener.BlockingQueueConsumer$InternalConsumer.handleCancel(BlockingQueueConsumer.java:870) - Cancel received for amq.ctag-BzCvdoiV9WLX6iv0atXbBA (local.order.dead.real.queue); Consumer@1cbf1cd4: tags=[[amq.ctag-BzCvdoiV9WLX6iv0atXbBA]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://guest@127.0.0.1:5672/,15), conn: Proxy@4f006188 Shared Rabbit Connection: SimpleConnection@6bffc294 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 64994], acknowledgeMode=NONE local queue size=0
+[21:35:21:178] [WARN] - org.springframework.amqp.rabbit.listener.BlockingQueueConsumer$InternalConsumer.handleCancel(BlockingQueueConsumer.java:870) - Cancel received for amq.ctag-mZ2i06kqUc6blOUhdtOvAg (local.order.dead.real.queue); Consumer@10540cb9: tags=[[amq.ctag-mZ2i06kqUc6blOUhdtOvAg]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://guest@127.0.0.1:5672/,14), conn: Proxy@4f006188 Shared Rabbit Connection: SimpleConnection@6bffc294 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 64994], acknowledgeMode=NONE local queue size=0
+[21:35:21:917] [WARN] - org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.logConsumerException(SimpleMessageListenerContainer.java:1298) - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.rabbit.support.ConsumerCancelledException
+[21:35:21:917] [WARN] - org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.logConsumerException(SimpleMessageListenerContainer.java:1298) - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.rabbit.support.ConsumerCancelledException
+[21:35:21:917] [WARN] - org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.logConsumerException(SimpleMessageListenerContainer.java:1298) - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.rabbit.support.ConsumerCancelledException
+[21:35:21:917] [WARN] - org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.logConsumerException(SimpleMessageListenerContainer.java:1298) - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.rabbit.support.ConsumerCancelledException
+[21:35:21:917] [WARN] - org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.logConsumerException(SimpleMessageListenerContainer.java:1298) - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.rabbit.support.ConsumerCancelledException
+[21:35:21:919] [WARN] - org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.logConsumerException(SimpleMessageListenerContainer.java:1298) - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.rabbit.support.ConsumerCancelledException
+[21:35:21:926] [WARN] - org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.logConsumerException(SimpleMessageListenerContainer.java:1298) - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.rabbit.support.ConsumerCancelledException
+[21:35:21:926] [WARN] - org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.logConsumerException(SimpleMessageListenerContainer.java:1298) - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.rabbit.support.ConsumerCancelledException
+[21:35:21:926] [WARN] - org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.logConsumerException(SimpleMessageListenerContainer.java:1298) - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.rabbit.support.ConsumerCancelledException
+[21:35:21:926] [WARN] - org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.logConsumerException(SimpleMessageListenerContainer.java:1298) - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.rabbit.support.ConsumerCancelledException
+[21:35:31:672] [WARN] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.setMessageConverter(AbstractMessageListenerContainer.java:483) - It is preferred to configure the message converter via the endpoint. See RabbitListenerEndpoint.setMessageConverter
+[21:41:15:930] [WARN] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.setMessageConverter(AbstractMessageListenerContainer.java:483) - It is preferred to configure the message converter via the endpoint. See RabbitListenerEndpoint.setMessageConverter
+[21:41:35:159] [WARN] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.setMessageConverter(AbstractMessageListenerContainer.java:483) - It is preferred to configure the message converter via the endpoint. See RabbitListenerEndpoint.setMessageConverter
+[21:41:53:792] [WARN] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.setMessageConverter(AbstractMessageListenerContainer.java:483) - It is preferred to configure the message converter via the endpoint. See RabbitListenerEndpoint.setMessageConverter
+[21:44:05:451] [WARN] - org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:198) - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+[21:48:36:417] [WARN] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.setMessageConverter(AbstractMessageListenerContainer.java:483) - It is preferred to configure the message converter via the endpoint. See RabbitListenerEndpoint.setMessageConverter
+[21:51:28:603] [WARN] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.setMessageConverter(AbstractMessageListenerContainer.java:483) - It is preferred to configure the message converter via the endpoint. See RabbitListenerEndpoint.setMessageConverter
+[21:54:46:576] [WARN] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.setMessageConverter(AbstractMessageListenerContainer.java:483) - It is preferred to configure the message converter via the endpoint. See RabbitListenerEndpoint.setMessageConverter
+[22:02:42:989] [WARN] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.setMessageConverter(AbstractMessageListenerContainer.java:483) - It is preferred to configure the message converter via the endpoint. See RabbitListenerEndpoint.setMessageConverter
+[22:14:38:473] [WARN] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.setMessageConverter(AbstractMessageListenerContainer.java:483) - It is preferred to configure the message converter via the endpoint. See RabbitListenerEndpoint.setMessageConverter
+[22:14:46:262] [WARN] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.setMessageConverter(AbstractMessageListenerContainer.java:483) - It is preferred to configure the message converter via the endpoint. See RabbitListenerEndpoint.setMessageConverter
+[22:17:24:526] [WARN] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.setMessageConverter(AbstractMessageListenerContainer.java:483) - It is preferred to configure the message converter via the endpoint. See RabbitListenerEndpoint.setMessageConverter
+[22:17:41:903] [WARN] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.setMessageConverter(AbstractMessageListenerContainer.java:483) - It is preferred to configure the message converter via the endpoint. See RabbitListenerEndpoint.setMessageConverter

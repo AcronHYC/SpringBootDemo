@@ -29,7 +29,7 @@ public class Receiver {
             log.info("监听消费者队列：{}",to);
             boolean flag= mailService.sendSimpleMail(to, "用户注册","恭喜你注册成功!");
             if(flag){
-                log.info("邮件送成功!");
+                log.info("邮件接受成功!");
             }
         }catch (Exception e){
             e.printStackTrace();

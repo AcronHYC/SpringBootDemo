@@ -1,0 +1,13 @@
+[00:07:37:173] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionClosed(Handler.java:66) - 连接断开:CloseStatus[code=1001, reason=null]
+[00:07:38:711] [INFO] - org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doShutdown(SimpleMessageListenerContainer.java:586) - Waiting for workers to finish.
+[00:07:39:684] [INFO] - org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doShutdown(SimpleMessageListenerContainer.java:589) - Successfully waited for workers to finish.
+[00:07:39:692] [INFO] - org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doShutdown(SimpleMessageListenerContainer.java:586) - Waiting for workers to finish.
+[00:07:40:685] [INFO] - org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doShutdown(SimpleMessageListenerContainer.java:589) - Successfully waited for workers to finish.
+[00:07:40:687] [INFO] - org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doShutdown(SimpleMessageListenerContainer.java:586) - Waiting for workers to finish.
+[00:07:40:688] [INFO] - org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doShutdown(SimpleMessageListenerContainer.java:589) - Successfully waited for workers to finish.
+[00:07:40:701] [INFO] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.shutdown(AbstractMessageListenerContainer.java:1226) - Shutdown ignored - container is not active already
+[00:07:40:702] [INFO] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.shutdown(AbstractMessageListenerContainer.java:1226) - Shutdown ignored - container is not active already
+[00:07:40:704] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[00:07:40:706] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'scheduledExecutorService'
+[00:07:40:706] [INFO] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.shutdown(AbstractMessageListenerContainer.java:1226) - Shutdown ignored - container is not active already
+[00:07:40:727] [INFO] - com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1825) - {dataSource-1} closed

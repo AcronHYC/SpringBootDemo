@@ -97,7 +97,7 @@
 [18:57:53:504] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
 [18:57:53:506] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
 [18:57:58:664] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 5.519 seconds (JVM running for 6.39)
-[18:58:32:866] [INFO] - com.acron.demo.config.RabbitMQConfig$1.confirm(RabbitMQConfig.java:99) - 消息发送成功:correlationData(null),ack(true),cause(null)
+[18:58:32:866] [INFO] - com.acron.demo.core.config.RabbitMQConfig$1.confirm(RabbitMQConfig.java:99) - 消息发送成功:correlationData(null),ack(true),cause(null)
 [18:58:32:876] [INFO] - com.acron.demo.rabbitMQ.Receiver.consumeMailQueue(Receiver.java:31) - 监听消费者队列：370575460@qq.com
 [18:58:34:546] [INFO] - com.acron.demo.service.impl.MailServiceImpl.sendSimpleMail(MailServiceImpl.java:46) - 邮件发送成功！
 [18:58:34:547] [INFO] - com.acron.demo.rabbitMQ.Receiver.consumeMailQueue(Receiver.java:34) - 邮件送成功!

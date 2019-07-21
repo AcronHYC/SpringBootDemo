@@ -456,7 +456,7 @@
 [17:27:56:278] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
 [17:27:59:015] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 3.103 seconds (JVM running for 3.892)
 [17:28:07:921] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:47) - 查询参数：{}
-[17:28:07:922] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.User
+[17:28:07:922] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.database.User
 [17:28:07:968] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name,password,sex,telephone,email,create_date,modify_date,version FROM user 
 [17:28:08:040] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 
 [17:28:08:058] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, user_name, password, sex, telephone, email, create_date, modify_date, version
@@ -475,7 +475,7 @@
 [17:28:52:662] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
 [17:28:56:660] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 4.316 seconds (JVM running for 6.124)
 [17:29:08:204] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:47) - 查询参数：{}
-[17:29:08:206] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.User
+[17:29:08:206] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.database.User
 [17:29:08:259] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name,password,sex,telephone,email,create_date,modify_date,version FROM user 
 [17:29:08:338] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 
 [17:29:08:372] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, user_name, password, sex, telephone, email, create_date, modify_date, version
@@ -490,7 +490,7 @@
 [17:29:08:388] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 818e9027423daa133e0c1f275bda4bdf, string, string, 1, string, 222@qq.com, 2019-06-27 14:17:17, 2019-06-27 14:17:17, 0
 [17:29:08:389] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==      Total: 2
 [17:29:12:311] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:47) - 查询参数：{}
-[17:29:12:311] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.User
+[17:29:12:311] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.database.User
 [17:29:12:312] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name,password,sex,telephone,email,create_date,modify_date,version FROM user 
 [17:29:12:312] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 
 [17:29:12:314] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, user_name, password, sex, telephone, email, create_date, modify_date, version
@@ -509,7 +509,7 @@
 [17:29:26:876] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
 [17:29:30:238] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 3.763 seconds (JVM running for 4.832)
 [17:29:40:964] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:47) - 查询参数：{}
-[17:29:40:965] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.User
+[17:29:40:965] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.database.User
 [17:29:41:017] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name,password,sex,telephone,email,create_date,modify_date,version FROM user 
 [17:29:41:099] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 
 [17:29:41:120] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, user_name, password, sex, telephone, email, create_date, modify_date, version
@@ -524,7 +524,7 @@
 [17:29:41:136] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 818e9027423daa133e0c1f275bda4bdf, string, string, 1, string, 222@qq.com, 2019-06-27 14:17:17, 2019-06-27 14:17:17, 0
 [17:29:41:137] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==      Total: 2
 [17:30:15:417] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:47) - 查询参数：{id=test}
-[17:30:15:418] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.User
+[17:30:15:418] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.database.User
 [17:31:04:134] [INFO] - com.acron.demo.controller.UserController.lambda$findUserByParams$0(UserController.java:53) - userName
 [17:31:04:135] [INFO] - com.acron.demo.controller.UserController.lambda$findUserByParams$0(UserController.java:53) - password
 [17:31:04:135] [INFO] - com.acron.demo.controller.UserController.lambda$findUserByParams$0(UserController.java:53) - sex
@@ -543,7 +543,7 @@
 [17:34:03:248] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
 [17:34:06:056] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 3.186 seconds (JVM running for 3.967)
 [17:34:33:532] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:47) - 查询参数：{id=test}
-[17:34:33:533] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.User
+[17:34:33:533] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.database.User
 [17:34:33:576] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name AS userName,password,sex,telephone,email,create_date AS createDate,modify_date AS modifyDate,version FROM user 
 [17:34:33:643] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 
 [18:26:27:367] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 19392 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
@@ -555,7 +555,7 @@
 [18:26:41:276] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
 [18:26:44:044] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 3.128 seconds (JVM running for 3.897)
 [18:26:51:174] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:47) - 查询参数：{id=test}
-[18:26:51:175] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.User
+[18:26:51:175] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.database.User
 [18:26:51:220] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name AS userName,password,sex,telephone,email,create_date AS createDate,modify_date AS modifyDate,version FROM user 
 [18:26:51:298] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 
 [18:27:54:123] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 18848 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
@@ -563,7 +563,7 @@
 [18:27:54:130] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
 [18:27:57:136] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 3.405 seconds (JVM running for 4.191)
 [18:28:13:236] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:47) - 查询参数：{additionalProp1=string, additionalProp2=string, additionalProp3=string}
-[18:28:13:238] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.User
+[18:28:13:238] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.database.User
 [18:28:13:284] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,user_name AS userName,password,sex,telephone,email,create_date AS createDate,modify_date AS modifyDate,version FROM user 
 [18:28:13:357] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 
 [18:29:11:022] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 15784 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
@@ -571,7 +571,7 @@
 [18:29:11:027] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
 [18:29:13:865] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 3.159 seconds (JVM running for 4.004)
 [18:29:27:081] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:47) - 查询参数：{additionalProp1=string, additionalProp2=string, additionalProp3=string}
-[18:29:27:083] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.User
+[18:29:27:083] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.database.User
 [18:29:27:151] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,userName,password,sex,telephone,email,createDate,modifyDate,version FROM user 
 [18:29:27:254] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 
 [18:29:29:449] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 15784 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
@@ -579,11 +579,11 @@
 [18:29:29:450] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
 [18:29:30:451] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 1.044 seconds (JVM running for 20.59)
 [18:29:46:252] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:47) - 查询参数：{additionalProp1=string, additionalProp2=string, additionalProp3=string}
-[18:29:46:252] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.User
+[18:29:46:252] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.database.User
 [18:29:46:258] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,userName,password,sex,telephone,email,createDate,modifyDate,version FROM user 
 [18:29:46:260] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 
 [18:30:39:513] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:47) - 查询参数：{additionalProp1=string, additionalProp2=string, additionalProp3=string}
-[18:30:39:513] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.User
+[18:30:39:513] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.database.User
 [18:30:39:514] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,userName,password,sex,telephone,email,createDate,modifyDate,version FROM user 
 [18:30:39:515] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 
 [18:30:39:543] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, userName, password, sex, telephone, email, createDate, modifyDate, version
@@ -598,7 +598,7 @@
 [18:30:39:558] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 818e9027423daa133e0c1f275bda4bdf, string, string, 1, string, 222@qq.com, 2019-06-27 14:17:17, 2019-06-27 14:17:17, 0
 [18:30:39:559] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==      Total: 2
 [18:34:42:349] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:47) - 查询参数：{userName=a}
-[18:34:42:349] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.User
+[18:34:42:349] [INFO] - com.acron.demo.controller.UserController.findUserByParams(UserController.java:49) - com.acron.demo.entity.database.User
 [18:34:42:377] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,userName,password,sex,telephone,email,createDate,modifyDate,version FROM user WHERE userName LIKE ? 
 [18:34:42:402] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: %a%(String)
 [18:34:42:403] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, userName, password, sex, telephone, email, createDate, modifyDate, version

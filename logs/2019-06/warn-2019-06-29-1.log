@@ -46,7 +46,7 @@ Caused by: java.lang.NoClassDefFoundError: com/acron/demo/entity/User
 	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:389) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:248) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
 	... 23 more
-Caused by: java.lang.ClassNotFoundException: com.acron.demo.entity.User
+Caused by: java.lang.ClassNotFoundException: com.acron.demo.entity.database.User
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[?:1.8.0_211]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_211]
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349) ~[?:1.8.0_211]
@@ -138,7 +138,7 @@ Caused by: java.lang.NoClassDefFoundError: com/acron/demo/entity/User
 	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:389) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:248) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
 	... 23 more
-Caused by: java.lang.ClassNotFoundException: com.acron.demo.entity.User
+Caused by: java.lang.ClassNotFoundException: com.acron.demo.entity.database.User
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[?:1.8.0_211]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_211]
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349) ~[?:1.8.0_211]
@@ -976,7 +976,7 @@ java.sql.SQLSyntaxErrorException: Unknown column 'userName' in 'field list'
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_211]
 [18:41:00:288] [WARN] - org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:198) - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting double-quote to start field name
  at [Source: (PushbackInputStream); line: 8, column: 2]]
-[18:42:12:093] [WARN] - org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:198) - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public boolean com.acron.demo.controller.UserController.createUser(com.acron.demo.entity.User): [Field error in object 'user' on field 'email': rejected value [string]; codes [Email.user.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@6ec1b6be,org.springframework.validation.beanvalidation.SpringValidatorAdapter$ResolvableAttribute@34dce16]; default message [邮箱格式不正确!]] ]
+[18:42:12:093] [WARN] - org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:198) - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public boolean com.acron.demo.controller.UserController.createUser(com.acron.demo.entity.database.User): [Field error in object 'user' on field 'email': rejected value [string]; codes [Email.user.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@6ec1b6be,org.springframework.validation.beanvalidation.SpringValidatorAdapter$ResolvableAttribute@34dce16]; default message [邮箱格式不正确!]] ]
 [21:04:03:240] [ERROR] - com.alibaba.druid.filter.logging.Log4j2Filter.statementLogError(Log4j2Filter.java:152) - {conn-10005, pstmt-20000} execute error. UPDATE user  SET email=?,
 
 modifyDate=?,

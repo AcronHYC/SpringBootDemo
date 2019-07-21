@@ -1,6 +1,6 @@
 package com.acron.demo.dao;
 
-import com.acron.demo.entity.ProductRobbingRecord;
+import com.acron.demo.entity.database.ProductRobbingRecord;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.springframework.stereotype.Repository;
 

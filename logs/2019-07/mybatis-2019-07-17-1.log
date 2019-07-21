@@ -1,0 +1,233 @@
+[20:21:53:740] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 2936 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[20:21:53:745] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[20:21:53:745] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[20:21:56:125] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 2.447 seconds (JVM running for 80855.432)
+[20:25:07:211] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 2936 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[20:25:07:211] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[20:25:07:212] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[20:25:10:120] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 2.951 seconds (JVM running for 81049.427)
+[20:25:45:656] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 2232 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[20:25:45:663] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[20:25:45:664] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[20:25:51:293] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 5.999 seconds (JVM running for 7.221)
+[20:26:58:389] [INFO] - com.acron.demo.core.websocket.Handshake.beforeHandshake(Handshake.java:38) - 记录登录用户ID：1dee882b0d669adf4a663448927b9a8e
+[20:26:58:426] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionEstablished(Handler.java:26) - 客户端连接成功！
+[20:26:58:431] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionEstablished(Handler.java:31) - 当前在线人数:1
+[20:28:44:857] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO t_order ( id, userID, productID, amount, status, createDate, modifyDate, version ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+[20:28:44:958] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 51497425bda169b0882f2d6e47085cb1(String), 1dee882b0d669adf4a663448927b9a8e(String), 55bb21a0d7a1f3f9f1ad1f4b05e902d6(String), 100(Integer), 0(Integer), 2019-07-17 20:28:44.826(Timestamp), 2019-07-17 20:28:44.826(Timestamp), 0(Long)
+[20:28:44:976] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==    Updates: 1
+[20:28:45:002] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,userID,productID,amount,status,createDate,modifyDate,version FROM t_order WHERE userID = ? AND productID = ? 
+[20:28:45:027] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 1dee882b0d669adf4a663448927b9a8e(String), 55bb21a0d7a1f3f9f1ad1f4b05e902d6(String)
+[20:28:45:048] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, userID, productID, amount, status, createDate, modifyDate, version
+[20:28:45:049] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 51497425bda169b0882f2d6e47085cb1, 1dee882b0d669adf4a663448927b9a8e, 55bb21a0d7a1f3f9f1ad1f4b05e902d6, 100, 0, 2019-07-17 12:28:44.826000000, 2019-07-17 12:28:44.826000000, 0
+[20:28:45:054] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==      Total: 1
+[20:28:45:071] [INFO] - com.acron.demo.core.config.RabbitMQConfig$1.confirm(RabbitMQConfig.java:88) - 消息发送成功:correlationData(null),ack(true),cause(null)
+[20:29:45:098] [INFO] - com.acron.demo.rabbitMQ.OrderDeadListener.consumeMessage(OrderDeadListener.java:37) - 死信队列-用户下单超时未支付监听：51497425bda169b0882f2d6e47085cb1
+[20:29:45:098] [INFO] - com.acron.demo.core.websocket.Handler.sendMessageToOne(Handler.java:106) - 发消息给：StandardWebSocketSession[id=8502aa93-de05-0a68-3c03-3c2ddcef0e89, uri=ws://127.0.0.1:8080/SpringBootDemo/websocket/userID=1dee882b0d669adf4a663448927b9a8e]
+[20:29:45:102] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,userID,productID,amount,status,createDate,modifyDate,version FROM t_order WHERE id=? 
+[20:29:45:103] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 51497425bda169b0882f2d6e47085cb1(String)
+[20:29:45:105] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, userID, productID, amount, status, createDate, modifyDate, version
+[20:29:45:105] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 51497425bda169b0882f2d6e47085cb1, 1dee882b0d669adf4a663448927b9a8e, 55bb21a0d7a1f3f9f1ad1f4b05e902d6, 100, 0, 2019-07-17 12:28:44.826000000, 2019-07-17 12:28:44.826000000, 0
+[20:29:45:106] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==      Total: 1
+[20:29:45:111] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: UPDATE t_order SET userID=?, productID=?, amount=?, status=?, createDate=?, modifyDate=NOW(), version=version+1 WHERE id=? AND version=? 
+[20:29:45:118] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 1dee882b0d669adf4a663448927b9a8e(String), 55bb21a0d7a1f3f9f1ad1f4b05e902d6(String), 100(Integer), 2(Integer), 2019-07-17 20:28:44.826(Timestamp), 51497425bda169b0882f2d6e47085cb1(String), 0(Long)
+[20:29:45:125] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==    Updates: 1
+[20:31:38:106] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionClosed(Handler.java:66) - 连接断开:CloseStatus[code=1001, reason=The web application is stopping]
+[20:31:42:578] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 9760 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[20:31:42:584] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[20:31:42:585] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[20:31:48:208] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 6.075 seconds (JVM running for 7.048)
+[20:32:26:050] [INFO] - com.acron.demo.core.websocket.Handshake.beforeHandshake(Handshake.java:38) - 记录登录用户ID：1dee882b0d669adf4a663448927b9a8e
+[20:32:26:093] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionEstablished(Handler.java:26) - 客户端连接成功！
+[20:32:26:097] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionEstablished(Handler.java:31) - 当前在线人数:1
+[20:32:51:562] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO t_order ( id, userID, productID, amount, status, createDate, modifyDate, version ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+[20:32:51:665] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: b1e9b055722649f8c86c41686c03f5b7(String), 1dee882b0d669adf4a663448927b9a8e(String), 55bb21a0d7a1f3f9f1ad1f4b05e902d6(String), 100(Integer), 0(Integer), 2019-07-17 20:32:51.551(Timestamp), 2019-07-17 20:32:51.551(Timestamp), 0(Long)
+[20:32:51:672] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==    Updates: 1
+[20:32:51:696] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,userID,productID,amount,status,createDate,modifyDate,version FROM t_order WHERE userID = ? AND productID = ? 
+[20:32:51:719] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 1dee882b0d669adf4a663448927b9a8e(String), 55bb21a0d7a1f3f9f1ad1f4b05e902d6(String)
+[20:32:51:738] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, userID, productID, amount, status, createDate, modifyDate, version
+[20:32:51:740] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: b1e9b055722649f8c86c41686c03f5b7, 1dee882b0d669adf4a663448927b9a8e, 55bb21a0d7a1f3f9f1ad1f4b05e902d6, 100, 0, 2019-07-17 12:32:51.551000000, 2019-07-17 12:32:51.551000000, 0
+[20:32:51:743] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==      Total: 1
+[20:32:51:757] [INFO] - com.acron.demo.core.config.RabbitMQConfig$1.confirm(RabbitMQConfig.java:88) - 消息发送成功:correlationData(null),ack(true),cause(null)
+[20:33:51:777] [INFO] - com.acron.demo.rabbitMQ.OrderDeadListener.consumeMessage(OrderDeadListener.java:37) - 死信队列-用户下单超时未支付监听：b1e9b055722649f8c86c41686c03f5b7
+[20:33:51:778] [INFO] - com.acron.demo.core.websocket.Handler.sendMessageToOne(Handler.java:106) - 发消息给：StandardWebSocketSession[id=af45839a-5f24-c5ff-e206-628303a516bb, uri=ws://127.0.0.1:8080/SpringBootDemo/websocket/userID=1dee882b0d669adf4a663448927b9a8e]
+[20:33:51:781] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,userID,productID,amount,status,createDate,modifyDate,version FROM t_order WHERE id=? 
+[20:33:51:783] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: b1e9b055722649f8c86c41686c03f5b7(String)
+[20:33:51:784] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, userID, productID, amount, status, createDate, modifyDate, version
+[20:33:51:784] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: b1e9b055722649f8c86c41686c03f5b7, 1dee882b0d669adf4a663448927b9a8e, 55bb21a0d7a1f3f9f1ad1f4b05e902d6, 100, 0, 2019-07-17 12:32:51.551000000, 2019-07-17 12:32:51.551000000, 0
+[20:33:51:786] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==      Total: 1
+[20:33:51:790] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: UPDATE t_order SET userID=?, productID=?, amount=?, status=?, createDate=?, modifyDate=NOW(), version=version+1 WHERE id=? AND version=? 
+[20:33:51:795] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 1dee882b0d669adf4a663448927b9a8e(String), 55bb21a0d7a1f3f9f1ad1f4b05e902d6(String), 100(Integer), 2(Integer), 2019-07-17 20:32:51.551(Timestamp), b1e9b055722649f8c86c41686c03f5b7(String), 0(Long)
+[20:33:51:847] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==    Updates: 1
+[20:36:25:989] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionClosed(Handler.java:66) - 连接断开:CloseStatus[code=1001, reason=The web application is stopping]
+[20:36:30:979] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 2328 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[20:36:30:985] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[20:36:30:985] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[20:36:36:566] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 6.05 seconds (JVM running for 7.037)
+[20:37:37:476] [INFO] - com.acron.demo.core.websocket.Handshake.beforeHandshake(Handshake.java:38) - 记录登录用户ID：1dee882b0d669adf4a663448927b9a8e
+[20:37:37:520] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionEstablished(Handler.java:26) - 客户端连接成功！
+[20:37:37:524] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionEstablished(Handler.java:31) - 当前在线人数:1
+[20:37:49:337] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO t_order ( id, userID, productID, amount, status, createDate, modifyDate, version ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+[20:37:49:439] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: ec97ea53ee304e1a901dfb9737232e2a(String), 1dee882b0d669adf4a663448927b9a8e(String), 55bb21a0d7a1f3f9f1ad1f4b05e902d6(String), 100(Integer), 0(Integer), 2019-07-17 20:37:49.326(Timestamp), 2019-07-17 20:37:49.326(Timestamp), 0(Long)
+[20:37:49:457] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==    Updates: 1
+[20:37:49:482] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,userID,productID,amount,status,createDate,modifyDate,version FROM t_order WHERE userID = ? AND productID = ? 
+[20:37:49:502] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 1dee882b0d669adf4a663448927b9a8e(String), 55bb21a0d7a1f3f9f1ad1f4b05e902d6(String)
+[20:37:49:521] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, userID, productID, amount, status, createDate, modifyDate, version
+[20:37:49:522] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: ec97ea53ee304e1a901dfb9737232e2a, 1dee882b0d669adf4a663448927b9a8e, 55bb21a0d7a1f3f9f1ad1f4b05e902d6, 100, 0, 2019-07-17 12:37:49.326000000, 2019-07-17 12:37:49.326000000, 0
+[20:37:49:525] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==      Total: 1
+[20:37:49:539] [INFO] - com.acron.demo.core.config.RabbitMQConfig$1.confirm(RabbitMQConfig.java:88) - 消息发送成功:correlationData(null),ack(true),cause(null)
+[20:38:49:559] [INFO] - com.acron.demo.rabbitMQ.OrderDeadListener.consumeMessage(OrderDeadListener.java:37) - 死信队列-用户下单超时未支付监听：ec97ea53ee304e1a901dfb9737232e2a
+[20:38:49:563] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,userID,productID,amount,status,createDate,modifyDate,version FROM t_order WHERE id=? 
+[20:38:49:564] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: ec97ea53ee304e1a901dfb9737232e2a(String)
+[20:38:49:565] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, userID, productID, amount, status, createDate, modifyDate, version
+[20:38:49:566] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: ec97ea53ee304e1a901dfb9737232e2a, 1dee882b0d669adf4a663448927b9a8e, 55bb21a0d7a1f3f9f1ad1f4b05e902d6, 100, 0, 2019-07-17 12:37:49.326000000, 2019-07-17 12:37:49.326000000, 0
+[20:38:49:567] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==      Total: 1
+[20:38:49:572] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: UPDATE t_order SET userID=?, productID=?, amount=?, status=?, createDate=?, modifyDate=NOW(), version=version+1 WHERE id=? AND version=? 
+[20:38:49:578] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 1dee882b0d669adf4a663448927b9a8e(String), 55bb21a0d7a1f3f9f1ad1f4b05e902d6(String), 100(Integer), 2(Integer), 2019-07-17 20:37:49.326(Timestamp), ec97ea53ee304e1a901dfb9737232e2a(String), 0(Long)
+[20:38:49:592] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==    Updates: 1
+[20:41:15:354] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionClosed(Handler.java:66) - 连接断开:CloseStatus[code=1001, reason=The web application is stopping]
+[20:41:15:573] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 2328 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[20:41:15:574] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[20:41:15:574] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[20:41:17:540] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 2.004 seconds (JVM running for 288.011)
+[20:41:40:218] [INFO] - com.acron.demo.core.websocket.Handshake.beforeHandshake(Handshake.java:38) - 记录登录用户ID：1dee882b0d669adf4a663448927b9a8e
+[20:41:40:221] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionEstablished(Handler.java:26) - 客户端连接成功！
+[20:41:40:222] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionEstablished(Handler.java:31) - 当前在线人数:1
+[20:41:41:692] [INFO] - com.acron.demo.core.websocket.Handler.handleMessage(Handler.java:37) - 处理消息！
+[20:44:32:312] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionClosed(Handler.java:66) - 连接断开:CloseStatus[code=1001, reason=The web application is stopping]
+[20:44:32:639] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 2328 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[20:44:32:640] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[20:44:32:640] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[20:48:02:223] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 17620 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[20:48:02:228] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[20:48:02:228] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[20:48:07:762] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 6.006 seconds (JVM running for 7.08)
+[20:48:17:065] [INFO] - com.acron.demo.core.websocket.Handshake.beforeHandshake(Handshake.java:38) - 记录登录用户ID：1dee882b0d669adf4a663448927b9a8e
+[20:48:17:107] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionEstablished(Handler.java:26) - 客户端连接成功！
+[20:48:17:110] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionEstablished(Handler.java:31) - 当前在线人数:1
+[20:48:20:602] [INFO] - com.acron.demo.core.websocket.Handler.handleMessage(Handler.java:37) - 处理消息！
+[20:48:20:687] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionClosed(Handler.java:68) - 连接断开:CloseStatus[code=1011, reason=null]
+[20:49:23:586] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 11724 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[20:49:23:593] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[20:49:23:594] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[20:49:29:201] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 6.081 seconds (JVM running for 7.049)
+[20:49:37:129] [INFO] - com.acron.demo.core.websocket.Handshake.beforeHandshake(Handshake.java:38) - 记录登录用户ID：1dee882b0d669adf4a663448927b9a8e
+[20:49:37:170] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionEstablished(Handler.java:26) - 客户端连接成功！
+[20:49:37:175] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionEstablished(Handler.java:31) - 当前在线人数:1
+[20:49:40:681] [INFO] - com.acron.demo.core.websocket.Handler.handleMessage(Handler.java:37) - 服务器收到消息：TextMessage payload=[k], byteCount=1, last=true]
+[20:49:40:741] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionClosed(Handler.java:67) - 连接断开:CloseStatus[code=1011, reason=null]
+[20:50:08:942] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 8016 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[20:50:08:947] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[20:50:08:948] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[20:50:14:514] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 6.045 seconds (JVM running for 7.026)
+[20:50:32:328] [INFO] - com.acron.demo.core.websocket.Handshake.beforeHandshake(Handshake.java:38) - 记录登录用户ID：1dee882b0d669adf4a663448927b9a8e
+[20:50:32:371] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionEstablished(Handler.java:26) - 客户端连接成功！
+[20:50:32:375] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionEstablished(Handler.java:31) - 当前在线人数:1
+[20:50:35:439] [INFO] - com.acron.demo.core.websocket.Handler.handleMessage(Handler.java:37) - 服务器收到消息：123
+[20:50:35:508] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionClosed(Handler.java:67) - 连接断开:CloseStatus[code=1011, reason=null]
+[20:52:53:469] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 12648 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[20:52:53:475] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[20:52:53:475] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[20:52:59:158] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 6.214 seconds (JVM running for 7.295)
+[20:53:23:502] [INFO] - com.acron.demo.core.websocket.Handshake.beforeHandshake(Handshake.java:38) - 记录登录用户ID：1dee882b0d669adf4a663448927b9a8e
+[20:53:23:546] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionEstablished(Handler.java:26) - 客户端连接成功！
+[20:53:23:550] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionEstablished(Handler.java:31) - 当前在线人数:1
+[20:53:24:946] [INFO] - com.acron.demo.core.websocket.Handler.handleMessage(Handler.java:37) - 服务器收到消息：TextMessage payload=[231], byteCount=3, last=true]
+[20:53:25:009] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionClosed(Handler.java:67) - 连接断开:CloseStatus[code=1011, reason=null]
+[20:59:45:849] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 5304 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[20:59:45:860] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[20:59:45:861] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[20:59:52:233] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 6.898 seconds (JVM running for 8.25)
+[21:00:37:173] [INFO] - com.acron.demo.core.websocket.Handshake.beforeHandshake(Handshake.java:38) - 记录登录用户ID：1dee882b0d669adf4a663448927b9a8e
+[21:00:37:221] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionEstablished(Handler.java:26) - 客户端连接成功！
+[21:00:37:226] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionEstablished(Handler.java:31) - 当前在线人数:1
+[21:00:39:882] [INFO] - com.acron.demo.core.websocket.Handler.handleMessage(Handler.java:37) - 服务器收到消息：TextMessage payload=[123], byteCount=3, last=true]
+[21:00:39:884] [INFO] - com.acron.demo.core.websocket.Handler.lambda$sendMessageToAll$0(Handler.java:87) - 全部发送成功！
+[21:01:46:947] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionClosed(Handler.java:67) - 连接断开:CloseStatus[code=1001, reason=The web application is stopping]
+[21:01:47:178] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 5304 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:01:47:179] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:01:47:179] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:01:49:208] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 2.069 seconds (JVM running for 125.225)
+[21:07:19:783] [INFO] - com.acron.demo.core.websocket.Handshake.beforeHandshake(Handshake.java:38) - 记录登录用户ID：1dee882b0d669adf4a663448927b9a8e
+[21:07:19:789] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionEstablished(Handler.java:26) - 客户端连接成功！
+[21:07:19:790] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionEstablished(Handler.java:31) - 当前在线人数:1
+[21:07:21:826] [INFO] - com.acron.demo.core.websocket.Handler.handleMessage(Handler.java:37) - 服务器收到消息：TextMessage payload=[231], byteCount=3, last=true]
+[21:07:21:828] [INFO] - com.acron.demo.core.websocket.Handler.lambda$sendMessageToAll$0(Handler.java:87) - 全部发送成功！
+[21:07:25:048] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionClosed(Handler.java:67) - 连接断开:CloseStatus[code=1001, reason=The web application is stopping]
+[21:07:25:356] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 5304 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:07:25:356] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:07:25:357] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:07:27:271] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 1.948 seconds (JVM running for 463.288)
+[21:07:53:811] [INFO] - com.acron.demo.core.websocket.Handshake.beforeHandshake(Handshake.java:38) - 记录登录用户ID：1dee882b0d669adf4a663448927b9a8e
+[21:07:53:814] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionEstablished(Handler.java:26) - 客户端连接成功！
+[21:07:53:815] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionEstablished(Handler.java:31) - 当前在线人数:1
+[21:07:55:097] [INFO] - com.acron.demo.core.websocket.Handler.handleMessage(Handler.java:37) - 服务器收到消息：TextMessage payload=[123], byteCount=3, last=true]
+[21:08:33:906] [INFO] - com.acron.demo.core.websocket.Handler.lambda$sendMessageToAll$0(Handler.java:88) - 全部发送成功！
+[21:08:44:108] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionClosed(Handler.java:68) - 连接断开:CloseStatus[code=1001, reason=The web application is stopping]
+[21:08:44:361] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 5304 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[21:08:44:362] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[21:08:44:362] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[21:08:46:273] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 1.942 seconds (JVM running for 542.29)
+[21:17:41:691] [INFO] - com.acron.demo.core.websocket.Handshake.beforeHandshake(Handshake.java:38) - 记录登录用户ID：1dee882b0d669adf4a663448927b9a8e
+[21:17:41:695] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionEstablished(Handler.java:26) - 客户端连接成功！
+[21:18:14:474] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionEstablished(Handler.java:31) - 当前在线人数:1
+[22:05:11:152] [INFO] - com.acron.demo.core.websocket.Handler.afterConnectionClosed(Handler.java:68) - 连接断开:CloseStatus[code=1001, reason=The web application is stopping]
+[22:05:11:394] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 5304 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:05:11:395] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:05:11:395] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:06:43:439] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1576 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:06:43:445] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:06:43:446] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:06:49:263] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 6.163 seconds (JVM running for 7.303)
+[22:07:22:039] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,userName,password,sex,telephone,email,createDate,modifyDate,version FROM user 
+[22:07:22:156] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 
+[22:07:22:182] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, userName, password, sex, telephone, email, createDate, modifyDate, version
+[22:07:22:184] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 077cc472b34c0214c05ac538888cfe13, string测试2, string, 1, string, string@qq.com, 2019-06-29 10:43:00, 2019-06-29 10:43:00, 0
+[22:07:22:191] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 1dee882b0d669adf4a663448927b9a8e, Acron, 123456, 1, 13132222, AcronHYC@qq.com, 2019-06-27 13:32:52, 2019-06-29 21:05:57, 4
+[22:07:22:191] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 51ebcfc42e415cfe342a9b59ecda4706, 撒大大阿斯顿阿斯顿, string, 1, 123, string@qq.com, 2019-07-11 13:59:38, 2019-07-11 13:59:38, 0
+[22:07:22:192] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 60cbea80d1e69c477e204a5b970ca94a, string测试1, string, 1, string, string@qq.com, 2019-06-29 10:42:56, 2019-06-29 10:42:56, 0
+[22:07:22:193] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 7585842abfa7fac7f42a0feb44cafa39, string测试2, string, 1, string123, string@qq.com, 2019-06-29 10:43:02, 2019-06-29 10:43:02, 0
+[22:07:22:194] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 818e9027423daa133e0c1f275bda4bdf, string, string, 1, string, 222@qq.com, 2019-06-27 14:17:17, 2019-06-27 14:17:17, 0
+[22:07:22:195] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: a730707f3d5a3b3589a1bb442bf499e1, string测试, string, 1, string, string@qq.com, 2019-06-29 10:42:23, 2019-06-29 10:42:23, 0
+[22:07:22:196] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: c52b135c0183f0422848535121ba1763, string测试2, string112313, 1, string123, string@qq.com, 2019-06-29 10:43:06, 2019-06-29 10:43:06, 0
+[22:07:22:197] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: cfbf1c5500dc2ab2f35303ff1c47d5c3, asdsadas啊啊, string, 1, 123, string@qq.com, 2019-07-11 13:56:37, 2019-07-11 13:56:37, 0
+[22:07:22:198] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: d3a2ec2f9487ddf2cf2a0917d7f95aef, string, string, 1, string, string@qq.com, 2019-07-12 14:58:29, 2019-07-12 14:58:29, 0
+[22:07:22:199] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: string, string, string, 1, string, string@qq.com, 2019-07-10 15:40:08, 2019-07-10 15:40:08, 0
+[22:07:22:199] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==      Total: 11
+[22:07:53:235] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,productName,amount,createDate,modifyDate,version FROM product 
+[22:07:53:237] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 
+[22:07:53:238] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, productName, amount, createDate, modifyDate, version
+[22:07:53:239] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 55bb21a0d7a1f3f9f1ad1f4b05e902d6, product1, 100, 2019-07-12 15:00:05, 2019-07-12 15:00:05, 0
+[22:07:53:242] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 89ab9f2ea92b833f4fde04a92597a5f5, product3, 100, 2019-07-12 15:00:34, 2019-07-12 15:00:34, 0
+[22:07:53:243] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: fd3d41f586ebec455b9f26f053610cb9, product2, 100, 2019-07-12 15:00:29, 2019-07-12 15:00:29, 0
+[22:07:53:244] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==      Total: 3
+[22:09:20:225] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1576 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:09:20:226] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:09:20:226] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:09:22:238] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 2.055 seconds (JVM running for 160.278)
+[22:11:00:239] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1576 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:11:00:240] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:11:00:240] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:12:13:679] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 3684 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:12:13:684] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:12:13:685] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:13:07:770] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 912 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:13:07:780] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:13:07:781] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:13:08:347] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 13504 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:13:08:358] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:13:08:359] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:13:16:759] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 8.855 seconds (JVM running for 10.423)
+[22:14:03:651] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1448 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:14:03:658] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:14:03:659] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:14:09:802] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 6.595 seconds (JVM running for 8.743)
+[22:14:44:082] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,userName,password,sex,telephone,email,createDate,modifyDate,version FROM user WHERE id=? 
+[22:14:44:204] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - ==> Parameters: 077cc472b34c0214c05ac538888cfe13(String)
+[22:14:44:230] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==    Columns: id, userName, password, sex, telephone, email, createDate, modifyDate, version
+[22:14:44:231] [TRACE] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.trace(BaseJdbcLogger.java:149) - <==        Row: 077cc472b34c0214c05ac538888cfe13, string测试2, string, 1, string, string@qq.com, 2019-06-29 10:43:00, 2019-06-29 10:43:00, 0
+[22:14:44:239] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) - <==      Total: 1
+[22:15:22:716] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on Acron with PID 1448 (D:\JavaDev\IdeaProjects\SpringBootDemo\target\classes started by Acron in D:\JavaDev\IdeaProjects\SpringBootDemo)
+[22:15:22:716] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[22:15:22:716] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:650) - The following profiles are active: prod
+[22:15:24:666] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 1.986 seconds (JVM running for 83.607)

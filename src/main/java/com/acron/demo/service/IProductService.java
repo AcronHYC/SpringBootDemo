@@ -1,6 +1,6 @@
 package com.acron.demo.service;
 
-import com.acron.demo.entity.Product;
+import com.acron.demo.entity.database.Product;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
