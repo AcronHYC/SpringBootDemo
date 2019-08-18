@@ -1,19 +1,25 @@
 package com.acron.demo.controller;
 
 import com.acron.demo.core.base.controller.BaseController;
-import com.acron.demo.core.base.entity.CustomException;
+import com.acron.demo.core.base.entity.BaseResult;
+import com.acron.demo.core.security.config.SecurityUserDetails;
 import com.acron.demo.entity.database.User;
 import com.acron.demo.service.IUserService;
+import com.acron.demo.utils.MapToBean;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import io.swagger.annotations.*;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang3.StringUtils;
+import org.springframework.data.redis.core.StringRedisTemplate;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
-import javax.validation.Valid;
 import java.lang.reflect.Field;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -28,6 +34,9 @@ import java.util.Map;
 public class UserController extends BaseController<IUserService,User> {
     @Resource
     private IUserService userService;
+
+    @Resource
+    private StringRedisTemplate stringRedisTemplate;
 
     private User user=new User();
 
@@ -54,13 +63,6 @@ public class UserController extends BaseController<IUserService,User> {
         return  userService.list(queryWrapper);
     }
 
-    @ApiOperation(value = "创建用户",notes = "创建用户")
-    @PostMapping(value = "/",consumes = "application/json;charset=UTF-8")
-    public boolean createUser(@ApiParam("创建对象") @RequestBody @Valid User user){
-        log.info("新建用户:{}",user.toString());
-        return userService.save(user);
-    }
-
     @ApiOperation(value = "更新用户",notes = "更新用户")
     @PutMapping(value="/",consumes = "application/json;charset=UTF-8")
     public boolean updateUser(@ApiParam("查询条件") @RequestBody Map<String,String> queryParams,@ApiParam("更新值") @RequestBody Map<String,String> updateParams){
@@ -78,4 +80,5 @@ public class UserController extends BaseController<IUserService,User> {
     public boolean deleteUser(@RequestBody List<String> ids){
         return userService.removeByIds(ids);
     }
+
 }

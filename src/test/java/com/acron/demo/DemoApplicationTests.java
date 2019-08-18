@@ -10,6 +10,7 @@ import com.acron.demo.service.IMailService;
 import com.acron.demo.service.IProductService;
 import com.acron.demo.service.IUserService;
 import com.acron.demo.thread.InitThread;
+import com.acron.demo.utils.MapToBean;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -18,10 +19,11 @@ import org.springframework.boot.autoconfigure.security.SecurityProperties;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.io.File;
+import java.lang.reflect.Method;
+import java.util.*;
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.SynchronousQueue;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -102,6 +104,35 @@ public class DemoApplicationTests {
         //问题：输出结果 数组越界
         System.out.println(arr[3][1]);
         userController.getOne(new HashMap<>());*/
-        userController.createUser(User.build(null,"1",Sex.FEMALE,"1","1"));
+        //userController.createUser(User.build(null,"1",Sex.FEMALE,"1","1"));
+        File file=new File("");
+        String rootPath=file.getCanonicalPath();
+        System.out.println(rootPath);
+    }
+
+    @Test
+    public void testConvert() throws Exception{
+        Map<String,Object> map=new HashMap();
+        map.put("sex","MALE");
+        map.put("userName","test");
+        map.put("password","adsad");
+        map.put("telephone","12313");
+        map.put("email","1sss@qq.com");
+        User user= MapToBean.mapConvertToBean(map,User.class);
+        System.out.println(user);
+        Map<String,Object> convertMap=MapToBean.objToMap(user);
+        convertMap.forEach((key,value)->{
+            System.out.println(key+":"+value);
+        });
+    }
+
+    @Test
+    public void testQueue() throws Exception{
+        BlockingQueue queue=new SynchronousQueue();
+        System.out.println(queue.offer(1)+"");
+        System.out.println(queue.offer(2)+"");
+        System.out.println(queue.offer(3)+"");
+        System.out.println(queue.take());
+        System.out.println(queue.size());
     }
 }

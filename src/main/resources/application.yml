@@ -142,3 +142,23 @@ mybatis-plus:
     db-config:
       table-underline: false
       capital-mode: false
+
+jwt:
+  authHeader: authorities
+  # 存放Token的Header Key
+  tokenHeader: accessToken
+  # 密匙key
+  secret: mySecret
+  # 过期时间   单位秒 7天后过期  604800
+  expiration: 60
+  # 自定义token 前缀字符
+  tokenPrefix: Bearer-
+  # 超时时间   单位秒
+  access_token: 600
+  # 刷新token时间   单位秒
+  refresh_token: 600
+  antMatchers: /LogAndReg/**,/v2/api-docs/**,/configuration/ui/**,/swagger-resources/**,/configuration/security/**,/swagger-ui.html,/webjars/**,/**/swagger-resources/configuration/ui/**,/swagge‌​r-ui.html,/user/{property}/{value}
+
+security:
+  antMatchers:
+    /LogAndReg/**

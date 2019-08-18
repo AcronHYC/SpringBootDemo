@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.acron.demo.dao.UserMapper">
+    <resultMap id="userMap" type="com.acron.demo.entity.database.User">
+        <id column="id" property="id"/>
+        <result column="userName" property="userName"/>
+        <result column="password" property="password"/>
+        <result column="sex" property="sex"/>
+        <result column="telephone" property="telephone"/>
+        <result column="email" property="email"/>
+        <result column="createDate" property="createDate"/>
+        <result column="modifyDate" property="modifyDate"/>
+        <result column="version" property="version"/>
+        <collection property="roles" column="id" ofType="com.acron.demo.entity.database.Role" fetchType="lazy"
+                    javaType="java.util.ArrayList" select="com.acron.demo.dao.RoleMapper.selectByRoleId">
+            <id property="id" column="id"/>
+            <result column="name" property="name"/>
+            <result column="tag" property="tag"/>
+        </collection>
+    </resultMap>
+</mapper>

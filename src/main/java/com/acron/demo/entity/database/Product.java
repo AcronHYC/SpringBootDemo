@@ -15,7 +15,7 @@ import lombok.experimental.Accessors;
  */
 @Api("产品实体对象")
 @Data
-@TableName("product")
+@TableName("t_product")
 @NoArgsConstructor
 @Accessors(chain = true)   //可链式调用
 @RequiredArgsConstructor(staticName = "build")

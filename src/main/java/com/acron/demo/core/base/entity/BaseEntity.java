@@ -2,9 +2,12 @@ package com.acron.demo.core.base.entity;
 
 import com.baomidou.mybatisplus.annotation.*;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import io.swagger.annotations.Api;
 import lombok.Data;
 import lombok.experimental.Accessors;
+import org.springframework.data.annotation.CreatedDate;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import java.util.Date;
 
@@ -24,12 +27,16 @@ public abstract class BaseEntity<T extends Model> extends Model {
     /**
      * 插入数据时自动填充
      */
+    @JsonFormat(timezone = "GMT+8", pattern = "yyyy-MM-dd HH:mm:ss")
+    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     @TableField(value="createDate",fill = FieldFill.INSERT)
     private Date createDate;
     
     /**
      * update="NOW()"，则生成的SQL中会含“update ... set ..., modify_date = NOW()”
      **/
+    @JsonFormat(timezone = "GMT+8", pattern = "yyyy-MM-dd HH:mm:ss")
+    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     @TableField(value = "modifyDate",fill = FieldFill.INSERT_UPDATE,update = "NOW()")
     private Date modifyDate;
 

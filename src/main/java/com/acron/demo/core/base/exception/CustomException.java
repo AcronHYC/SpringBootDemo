@@ -1,5 +1,6 @@
-package com.acron.demo.core.base.entity;
+package com.acron.demo.core.base.exception;
 
+import com.acron.demo.core.base.entity.BaseResult;
 import lombok.Data;
 
 /**

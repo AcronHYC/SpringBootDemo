@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.acron.demo.dao.ResourceMapper">
+    <resultMap id="resourceMap" type="com.acron.demo.entity.database.Resource">
+        <id property="id" column="id"/>
+        <result property="resourceName" column="resourceName"/>
+        <result property="url" column="url"/>
+        <result property="type" column="type"/>
+        <result property="module" column="module"/>
+        <result column="createDate" property="createDate"/>
+        <result column="modifyDate" property="modifyDate"/>
+        <result column="version" property="version"/>
+    </resultMap>
+</mapper>

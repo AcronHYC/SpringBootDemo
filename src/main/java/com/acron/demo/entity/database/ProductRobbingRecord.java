@@ -17,7 +17,7 @@ import java.util.Date;
  */
 @Api("抢单记录实体对象")
 @Data
-@TableName("productrobbingrecord")
+@TableName("t_productrobbingrecord")
 @NoArgsConstructor
 @Accessors(chain = true)   //可链式调用
 @RequiredArgsConstructor(staticName = "build")

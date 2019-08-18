@@ -42,7 +42,7 @@ public class MailServiceImpl implements IMailService {
             log.info("邮件发送成功！");
             flag=true;
         } catch (Exception e) {
-            log.error("发送简单邮件时发生异常！", e);
+            log.error("发送邮件时发生异常!", e);
         }
         return flag;
     }
